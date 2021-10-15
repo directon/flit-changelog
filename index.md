@@ -1,17 +1,16 @@
-
 # Novidades da versão
 
 ## Flit web manager 4.0.9 (11/10/2021)
 
 ### 🚀 Novo
 
--  `Cadastro de (Usuários/Perímetros) [FM-373]` - Agora podemos vincular até 5 perímetros diferentes no cadastro de usuários, desta forma o usuário não fica mais limitado a marcar apenas em um perímetro fixo.
+-  `Cadastro de (Usuários/Perímetros) [FM-373]` - Agora é possível **vincular até 5 perímetros** diferentes no cadastro de usuários, desta forma o usuário não fica  limitado a marcar apenas em um único perímetro.
 
--  `Cadastro de empresas [FM-374]` - Agora existe uma opção nos parâmetros para **Permitir marcar ponto fora do perímetro** caso o dispositivo não conseguir obter a localização ou se passarem 30 segundos da abertura da tela de marcação.
+-  `Cadastro de empresas [FM-374]` - Na aba parâmetros foi criado uma opção para **permitir marcar ponto fora do perímetro** caso o dispositivo não consiga obter a localização e tenha passado de 30 segundos na com a tela de marcação aberta.
 
--  `Cadastro de empresas [FM-108]` - Agora nos parâmetros podemos informar até 5 IPS externos, para restringir as marcações do flit web, desta forma caso o gestor opte por utilizar este recurso ele pode ter o controle se o usuário está marcando ponto por dentro da rede da empresa por exemplo, e caso esteja fora da rede não permite marcar.
+-  `Cadastro de empresas [FM-108]` - Também na aba parâmetros será possível **informar até 5 IPS externos, para restringir as marcações do flit web**, desta forma, caso o gestor opte por utilizar este recurso ele pode ter o controle se o usuário está marcando ponto por dentro da rede da empresa por exemplo, caso esteja fora da rede não permitirá a marcação.
 
--  `Exportação Alterdata [FM-400]` - Agora podemos informar em parâmetros gerais o código do evento de **horas noturnas totais**, e exportar o mesmo na tela de exportações.
+-  `Exportação Alterdata [FM-400]` - Em parâmetros gerais foi **criado o campo de horas noturnas totais**, também é possível exportar o mesmo na tela de exportações.
 
 ### 🌟 Melhorias
 
