@@ -27,7 +27,7 @@
 ### 🌟 Melhorias
 
 - `Nova orientação vertical [MUL-18]` - Agora é possível utilizar a marcação de ponto no Flit Multi na forma vertical do dispositivo.
-  ![flit-multi-vertical](assets/images/multi-vertical.png)
+  - ![flit-multi-vertical](assets/images/multi-vertical.png)
 
 ---
 
