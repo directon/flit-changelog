@@ -1,25 +1,25 @@
 # Novidades da versão
 
 ## Flit web manager 4.0.10 (29/10/2021)
-
-
+ 
+ 
 ### 🌟 Melhorias
-
--  `Listagem de marcações [FM-443]` - Adicionado campo de **matricula (PIN)** do usuário, levando também essa informação na exportação para Planilha (Excel).
-
+ 
+-  `Listagem de marcações [FM-443]` - Adicionado campo de **matrícula (PIN)** do usuário, levando também essa informação na exportação para Planilha (Excel).
+ 
 -  `Banner topo [FM-432]` - Criado recurso para quando o cliente estiver inadimplente, exibir um banner em vermelho com um contador de dias que faltam para que o sistema seja bloqueado (prazo de 5 dias). Dessa forma não será bloqueado de imediato quando entrar em inadimplência.
-
-
+ 
+ 
 ### 🔧 Correções
-
+ 
 -  `Empresas x Jornadas [FM-445]` - Ajuste interno para não permitir a exclusão de empresas que possuem marcações, jornadas ou usuários.
-
+ 
 -  `Hora noturna [FM-447]` -  Ajuste interno no cálculo de jornadas para quando as horas extras estiverem dentro da tolerância, serem descontadas apenas da jornada horas diurnas.
-
--  `Dashboard [FM-464]`  - Ajuste interno para exibir status correto do usuario no Dashboard, depois de marcar o ponto estando com um atraso.
-
+ 
+-  `Dashboard [FM-464]`  - Ajuste interno para exibir status correto do usuário no Dashboard, depois de marcar o ponto estando com um atraso.
+ 
 -  `Cadastro de usuários [FM-467]` - Ajuste interno para não remover o perímetro do usuário após alterar qualquer informação no seu cadastro.
-
+ 
 ---
 
 ## Flit web manager 4.0.9 (11/10/2021)
