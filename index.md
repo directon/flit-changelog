@@ -1,4 +1,5 @@
 # Novidades da versão
+---
 
 ## Flit web manager 4.0.10 (29/10/2021)
  
@@ -20,6 +21,16 @@
  
 -  `Cadastro de usuários [FM-467]` - Ajuste interno para não remover o perímetro do usuário após alterar qualquer informação no seu cadastro.
  
+---
+
+## Flit Multi 1.2.0 (27/10/2021)
+
+
+### 🌟 Melhorias
+
+-  `Nova orientação vertical [MUL-18]` - Agora é possível utilizar a marcação de ponto no Flit Multi na forma vertical do dispositivo.
+![flit-multi-vertical](assets/images/multi-vertical.png)
+
 ---
 
 ## Flit web manager 4.0.9 (11/10/2021)
