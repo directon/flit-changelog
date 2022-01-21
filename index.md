@@ -1,4 +1,18 @@
 # Novidades da versão
+___
+## Flit App 4.5.0 (21/01/2022)
+
+### 🌟 Melhorias
+
+- `Escala prevista [FA-77]` - Realizada melhoria na tela principal do aplicativo para exibir a escala prevista do funcionário para o dia atual.
+
+- `Previsão de saída [FA-79]` - Na tela principal também será mostrada a previsão de saída do funcionário caso tenha marcação na jornada atual.
+
+  ![mobile-previsao-saida](assets/images/mobile-previsao-saida.png)
+
+### 🔧 Correções
+
+- `Status do usuário [FA-75]` - Agora quando o usuário estiver com um status de: Férias, afastamento ou suspensão de contrato configurado para uma data futura, ele conseguirá marcar o ponto, bloqueando a marcação só durante o período do afastamento.
  
 ---
 ## Flit Multi 1.2.1 (25/11/2021)
