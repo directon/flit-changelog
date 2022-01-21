@@ -20,11 +20,11 @@ ___
  
 ### 🔧 Correções
  
-- `# Configuração - Câmera [MUL-22]` - Botão de voltar na configuração da câmera está mais visível.
+- `Configuração - Câmera [MUL-22]` - Botão de voltar na configuração da câmera está mais visível.
  
-- `# Login [MUL-21]` - Ao colocar um terminal inválido na hora de fazer o login, aparecerá uma mensagem de falha na tela.
+- `Login [MUL-21]` - Ao colocar um terminal inválido na hora de fazer o login, aparecerá uma mensagem de falha na tela.
  
-- `# Logout [MUL-42]` - Quando houver um logout automático aparecerá na tela em qual dispositivo ocorreu o novo acesso.
+- `Logout [MUL-42]` - Quando houver um logout automático aparecerá na tela em qual dispositivo ocorreu o novo acesso.
  
 ---
  
