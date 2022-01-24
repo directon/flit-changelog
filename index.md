@@ -1,5 +1,17 @@
 # Novidades da versão
 ___
+## Flit Manager 4.0.12 (24/01/2022)
+
+### 🌟 Melhorias
+
+- `Folha de ponto [FM-682]` - Otimização na geração da folha de ponto.
+
+- `Processamento de jornadas [FM-653]` - Ajuste interno no processamento de jornadas para ignorar as jornadas antigas que ficam em memória.
+
+### 🔧 Correções
+
+- `Status do usuário [FM-682]` - Quando o usuário estiver de **férias, afastado ou suspensão de contrato**, o status somente voltará para **ativo de forma automática** quando a data final for menor que a data atual.
+___
 ## Flit App 4.5.0 (21/01/2022)
 
 ### 🌟 Melhorias
