@@ -2,6 +2,38 @@
 
 ---
 
+## Flit Manager 4.1.0 (24/02/2022)
+
+### 🚀 Novo
+
+- `Interface nova [FM-592]` - A interface principal do manager está de cara nova! :)
+
+### 🌟 Melhorias
+
+- `Cadastro de feriados [FM-705]` - Criado novo cadastro de feriados, no qual será possível selecionar se o feriado é nacional, estadual ou municipal separando por empresas.
+
+- `Feriados nacionais [FM-658/703]` - Os feriados nacionais serão adicionados automaticamente todos os anos pela equipe Flit.
+
+- `Cadastro de feriados [FM-696]` - Ajuste interno para quando um feriado for cadastrado na data atual ou posterior, as jornadas anteriores serem atualizadas e recalculadas com base nas empresas afetadas. Exemplo: Se hoje é dia 24/02 e o feriado aconteceu dia 20/02 e esse não estava cadastrado antes, ao cadastrar esse feriado no sistema, o Flit Manager vai atribuir nas jornadas do dia 20/02 feriado para todos da(s) empresa(s).
+
+- `Exportação MOV.DP [FM-717]` - Ajuste interno na exportação MOV.DP para que os campos de HE Seg. a Sáb. e Feriado/Domingo fiquem separados.
+
+- `Envio de e-mails [FM-579]` - Melhoria interna no layout do envio de e-mail de marcações, recuperação de senha. O usuário também receberá um e-mail de ativação/recuperação assim que o gestor cadastrá-lo no manager.
+
+### 🔧 Correções
+
+- `Integração Alterdata [FM-619]` - Ajuste visual nos campos de integração com a Alterdata em parâmetros gerais.
+
+- `Marcação ignorada [FM-597]` - Ajuste interno para que a marcação de ponto seja ignorada apenas para aquelas realizadas no mesmo minuto.
+
+- `Reconhecimento facial [FM-598]` - Ajuste interno para quando o usuário estiver com a opção "utiliza reconhecimento facial" marcada e ao desligá-lo, o sistema desmarque automaticamente essa opção.
+
+- `Endereço (Usuários/Empresas) [FM-561]` - Ajuste interno nos campos de endereço para que seja possível cadastrar o número como "S/N".
+
+- `Ajustar jornadas [FM-699]` - Ajuste interno no cálculo da jornada, para quando editar a saída do primeiro período.
+
+---
+
 ## Flit Manager 4.0.12 (24/01/2022)
 
 ### 🌟 Melhorias
