@@ -2,6 +2,40 @@
 
 ---
 
+## Flit Manager 4.1.1 (08/03/2022)
+
+### 🚀 Novo
+
+- `Layout [FM-820]` - Foi criada uma opção na aba superior direita onde mostrará os links dos aplicativos e também as recomendações mínimas/recomendadas.
+
+### 🌟 Melhorias
+
+- `Página inicial do blog [FM-799]`  - Ajuste interno na aba "início" para exibir  as novidades da versão.
+
+- `Cadastro de empresas [FM-836]` - Ajuste interno para permitir inserir até 200 caracteres nos campos de razão social e nome fantasia.
+
+- `Cadastro de usuários [FM-802]` - Realizada melhoria para que usuários cadastrados já como demitidos tenham suas jornadas recentes criadas.
+
+- `E-mail de boas-vindas [FM-860]` - A cor do e-mail de boas-vindas foi alterada e o passo a passo também foi melhorado.
+
+- `Mapas [FM-800]` - Realizada melhoria nos mapas do Flit. Agora também mostrará os negócios locais e pontos de referência.
+
+- `Cadastro de feriado [FM-795]` - Ajuste interno na opção "Válido para todas as empresas do município/estado”, para ser habilitada somente após a seleção do município/estado.
+
+- `Listagem de marcações [FM-810]` - Agora a foto do colaborador se adapta de acordo com o tamanho da câmera na área de identificação da marcação e quando passa o mouse sobre fica possível expandir.
+
+### 🔧 Correções
+
+- `Parâmetros gerais [FM-844]` -  Ajuste interno para quando utilizar o Flit apenas como marcação de ponto,  as opções de parâmetros gerais sejam bloqueadas.
+
+- `Cadastro de feriado [FM-833]` - Ajuste interno na mensagem que aparece ao criar um feriado já existente.
+
+- `Cadastro de usuários [FM-848]` - Ajuste interno na hora de cadastrar usuários sem categoria.
+
+- `Cadastro de feriados [FM-798]` - Ajuste interno na escrita do modal de informações do feriado.
+
+---
+
 ## Flit Manager 4.1.0 (24/02/2022)
 
 ### 🚀 Novo
