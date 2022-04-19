@@ -2,6 +2,14 @@
 
 ---
 
+## Flit Web v4.1.2 (19/04/2022)
+
+### 🔧 Correções
+
+ `Proteção marcação sem foto [FW-10]` - Ajuste interno para permitir marcar o ponto sem foto, apenas se a opção "Fotografar colaborador ao marcar ponto no Flit Web" estiver desmarcada no cadastro de empresas da plataforma de gestão.
+
+---
+
 ## Flit Manager 4.1.1 (08/03/2022)
 
 ### 🚀 Novo
