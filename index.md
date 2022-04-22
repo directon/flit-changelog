@@ -6,33 +6,33 @@ ___
 
 ### 🌟 Melhorias
 
-- Login [FA-104] - Adicionado proteção para quando ocorrer bloqueio de conexão, o aplicativo informe que se trata de um bloqueio de rede.
+- `Login [FA-104]` - Adicionado proteção para quando ocorrer bloqueio de conexão, o aplicativo informe que se trata de um bloqueio de rede.
 
-- Reconhecimento facial [FA-114] - Ajuste interno para quando utilizar o reconhecimento facial, o sistema identifique o usuário de acordo com a empresa vinculada.
+- `Reconhecimento facial [FA-114]` - Ajuste interno para quando utilizar o reconhecimento facial, o sistema identifique o usuário de acordo com a empresa vinculada.
 
-- E-mail de boas-vindas [FA-117] - Melhoria na cor do e-mail de boas-vindas e no primeiros a passos.
+- `E-mail de boas-vindas [FA-117]` - Melhoria na cor do e-mail de boas-vindas e no primeiros a passos.
 
-- Comprovante [FA-125] - Agora o comprovante da marcação de ponto, apresenta a origem do registro, ou seja, qual aplicativo foi utilizado.
+- `Comprovante [FA-125]` - Agora o comprovante da marcação de ponto, apresenta a origem do registro, ou seja, qual aplicativo foi utilizado.
 
-- Marcação por exceção [FA-127] - Ajuste interno nas marcações por exceção, para que sejam feitas apenas com o horário original do servidor.
+- `Marcação por exceção [FA-127]` - Ajuste interno nas marcações por exceção, para que sejam feitas apenas com o horário original do servidor.
 
-- Notas [FA-129] - Adicionado nova forma de visualização/edição de notas na aplicativo web.
+- `Notas [FA-129]` - Adicionado nova forma de visualização/edição de notas na aplicativo web.
 
-- Notificações [FA-128] - Adicionado notificações de exceções no aplicativo web.
+- `Notificações [FA-128]` - Adicionado notificações de exceções no aplicativo web.
 
-- Menu lateral [FA-130] - Criado menu lateral para o aplicativo web.
+- `Menu lateral [FA-130]` - Criado menu lateral para o aplicativo web.
 
-- Recuperação de acesso [FA-143] - Melhoria para quando o usuário não lembrar o e-mail cadastrado, poderá recuperar a senha utilizando o CPF.
+- `Recuperação de acesso [FA-143]` - Melhoria para quando o usuário não lembrar o e-mail cadastrado, poderá recuperar a senha utilizando o CPF.
 
 ### 🔧 Correções
 
-- Gráfico de horas trabalhadas [FA-117] -  Ajuste interno na exibição das informações, para ficarem alinhadas.
+- `Gráfico de horas trabalhadas [FA-117]` -  Ajuste interno na exibição das informações, para ficarem alinhadas.
 
-- Cadastro de feriado [FA-119] - Ajuste interno no percentual do gráfico para que mostre corretamente quando há horas extras.
+- `Cadastro de feriado [FA-119]` - Ajuste interno no percentual do gráfico para que mostre corretamente quando há horas extras.
 
-- Seleção de horário [FA-140] - Ajuste visual na seleção de horários das exceções.
+- `Seleção de horário [FA-140]` - Ajuste visual na seleção de horários das exceções.
 
-- Gráfico de horas trabalhadas [FA-135] - Ajuste interno para quando a jornada for folga, férias ou qualquer outra que não tenha período previsto de trabalho o gráfico ficará oculto.
+- `Gráfico de horas trabalhadas [FA-135] - Ajuste interno para quando a jornada for folga, férias ou qualquer outra que não tenha período previsto de trabalho o gráfico ficará oculto.
 
 ---
 
@@ -40,7 +40,7 @@ ___
 
 ### 🔧 Correções
 
- `Proteção marcação sem foto [FW-10]` - Ajuste interno para permitir marcar o ponto sem foto, apenas se a opção "Fotografar colaborador ao marcar ponto no Flit Web" estiver desmarcada no cadastro de empresas da plataforma de gestão.
+- `Proteção marcação sem foto [FW-10]` - Ajuste interno para permitir marcar o ponto sem foto, apenas se a opção "Fotografar colaborador ao marcar ponto no Flit Web" estiver desmarcada no cadastro de empresas da plataforma de gestão.
 
 ---
 
