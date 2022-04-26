@@ -32,7 +32,7 @@ ___
 
 - `Seleção de horário [FA-140]` - Ajuste visual na seleção de horários das exceções.
 
-- `Gráfico de horas trabalhadas [FA-135] - Ajuste interno para quando a jornada for folga, férias ou qualquer outra que não tenha período previsto de trabalho o gráfico ficará oculto.
+- `Gráfico de horas trabalhadas [FA-135]` - Ajuste interno para quando a jornada for folga, férias ou qualquer outra que não tenha período previsto de trabalho o gráfico ficará oculto.
 
 ---
 
