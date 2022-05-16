@@ -1,6 +1,20 @@
 # Novidades da versão
 
-___
+## Flit App v4.6.1 (17/05/2022)
+
+### 🌟 Melhorias
+
+- `Melhoria na ressincronização das marcações [FA-168]` - Ajuste interno para ressincronizações das marcações off-line.
+
+### 🔧 Correções
+
+- `Gráfico de horas trabalhadas [FA-157]` - Otimizado o tempo do primeiro processamento do gráfico de horas.
+
+- `Login/ Recuperação de senha [FA-156]` -Ajuste interno para quando usuário inserir o e-mail através do preenchimento automático, não apareça a mensagem de “usuário inválido”.
+
+- `Marcação [FA-167]` - Ajuste interno para quando o Gestor estiver realizando alterações cadastrais e o usuário estiver marcando ponto, a marcação ocorra normalmente.
+
+---
 
 ## Flit App 4.6.0 (22/04/2022)
 
@@ -26,7 +40,7 @@ ___
 
 ### 🔧 Correções
 
-- `Gráfico de horas trabalhadas [FA-117]` -  Ajuste interno na exibição das informações, para ficarem alinhadas.
+- `Gráfico de horas trabalhadas [FA-117]` - Ajuste interno na exibição das informações, para ficarem alinhadas.
 
 - `Cadastro de feriado [FA-119]` - Ajuste interno no percentual do gráfico para que mostre corretamente quando há horas extras.
 
@@ -52,7 +66,7 @@ ___
 
 ### 🌟 Melhorias
 
-- `Página inicial do blog [FM-799]`  - Ajuste interno na aba "início" para exibir  as novidades da versão.
+- `Página inicial do blog [FM-799]` - Ajuste interno na aba "início" para exibir as novidades da versão.
 
 - `Cadastro de empresas [FM-836]` - Ajuste interno para permitir inserir até 200 caracteres nos campos de razão social e nome fantasia.
 
@@ -68,7 +82,7 @@ ___
 
 ### 🔧 Correções
 
-- `Parâmetros gerais [FM-844]` -  Ajuste interno para quando utilizar o Flit apenas como marcação de ponto,  as opções de parâmetros gerais sejam bloqueadas.
+- `Parâmetros gerais [FM-844]` - Ajuste interno para quando utilizar o Flit apenas como marcação de ponto, as opções de parâmetros gerais sejam bloqueadas.
 
 - `Cadastro de feriado [FM-833]` - Ajuste interno na mensagem que aparece ao criar um feriado já existente.
 
