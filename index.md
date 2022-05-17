@@ -1,6 +1,6 @@
 # Novidades da versão
 
-## Flit App v4.6.1 (17/05/2022)
+## Flit App 4.6.1 (17/05/2022)
 
 ### 🌟 Melhorias
 
