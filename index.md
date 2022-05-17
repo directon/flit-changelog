@@ -8,9 +8,9 @@
 
 ### 🔧 Correções
 
-- `Gráfico de horas trabalhadas [FA-157]` - Otimizado o tempo do primeiro processamento do gráfico de horas.
+- `Gráfico de horas trabalhadas [FA-157]` - Foi otimizado o tempo do primeiro processamento do gráfico de horas.
 
-- `Login/ Recuperação de senha [FA-156]` -Ajuste interno para quando usuário inserir o e-mail através do preenchimento automático, não apareça a mensagem de “usuário inválido”.
+- `Login/ Recuperação de senha [FA-156]` - Ajuste interno para quando usuário inserir o e-mail através do preenchimento automático, não apareça a mensagem de “usuário inválido”.
 
 - `Marcação [FA-167]` - Ajuste interno para quando o Gestor estiver realizando alterações cadastrais e o usuário estiver marcando ponto, a marcação ocorra normalmente.
 
