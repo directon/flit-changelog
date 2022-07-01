@@ -1,5 +1,47 @@
 # Novidades da versão
 
+## Flit Web Manager 4.2.0 (30/06/2022)
+
+### 🚀 Novo
+
+- `Busca/Pesquisa [FM-793]` - Habilitamos um campo de busca nos filtros da plataforma, para permitir pesquisar funcionários, departamentos, cargos e empresas, apenas digitando a descrição de cada.
+
+- `Lançamento simplificado [FM-739]` - Criado novo recurso para ser possível efetuar lançamentos em bloco, onde o gestor conseguirá por exemplo, lançar um atestado para vários dias de uma única vez e ainda para vários funcionários, assim como, afastamento, férias, abonos. Inclusive é possível efetuar abonos parciais, quando o funcionário se ausenta por um período da empresa, mas será abonado e não descontado pela ausência.
+
+- `Status do usuário [FM-726]` - Agora o status do usuário será modificado apenas pela tela de Lançamentos, alterando para férias, afastado e contrato suspenso. Antes poderia ser modificado no cadastro de usuários, mas agora ficou pela tela de lançamentos.
+
+- `Comprovante de ponto [FM-725]` - Criado nova tela para consulta do comprovante de ponto. O colaborador pode consultar através de um navegador, mesmo pelo celular, o seguinte link: https://comprovante.flitapp.com.br/#/login.
+
+- `Listagem de usuários [FM-857]` - Criado filtro no cadastro de usuários, para que na listagem exiba apenas os ativos. Caso queira analisar os desligados, pode-se utilizar o filtro para a pesquisa.
+
+- `Listagem de usuários [FM-856]` - Criado no cadastro de usuários um ícone ao lado do contador de usuários ativos, exibindo que na contagem de licenças não conta com os usuários desligados.
+
+- `Listagem de marcação [FM-777]` - Adicionado CNPJ ao lado do nome fantasia em todas as buscas de empresas na plataforma.
+
+- `Ajustar jornadas [FM-779]` - Criado nova opção no ajuste de jornadas para permitir visualizar e selecionar tipo do período.
+
+- `Filtros [FM-913]` - Ajuste interno em todos os filtros, para ser possível remover apenas um filtro selecionado na hora de pesquisar.
+
+### 🌟 Melhorias
+
+- `Parâmetros gerais [FM-844]` - Melhoria interna na exibição dos parâmetros para quem utiliza a plataforma no pacote único (apenas marcação de ponto).
+
+- `Importação AFD [FM-865]` - Ajuste interno no tempo de resposta na importação do arquivo AFD.
+
+- `Folha de ponto [FM-752]` - Ajuste interno para que a folha de ponto seja exibida de forma mais ampla na tela de visualização.
+
+- `Cadastro de escalas [FM-770]` - Melhoria para que o gestor consiga alterar a escala e informar a partir de qual data deseja aplicar essa nova escala no funcionário.
+
+### 🔧 Correções
+
+- `Hora extra [FM-943]` - Ajuste interno para que as horas extras noturnas do ajustar jornadas apareça corretamente no resumo da jornada.
+
+- `Ajustar jornadas [FM-873]` - Ajuste interno para que não exiba usuários indevidos para o gestor no ajustar jornadas.
+
+- `E-mail de boas-vindas [FM-920]` - Ajuste interno no e-mail de boas-vindas.
+
+---
+
 ## Flit App 4.6.1 (17/05/2022)
 
 ### 🌟 Melhorias
