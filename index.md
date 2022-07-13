@@ -1,6 +1,6 @@
 # Novidades da versão
 
-## Flit web manager 4.2.1 (13/07/2022)
+## Flit Web Manager 4.2.1 (13/07/2022)
 
 ### 🔧 Correções
 
@@ -228,7 +228,7 @@
 
 ---
 
-## Flit web manager 4.0.11 (25/11/2021)
+## Flit Web Manager 4.0.11 (25/11/2021)
 
 ### 🚀 Novo
 
@@ -258,7 +258,7 @@
 
 ---
 
-## Flit web manager 4.0.10 (29/10/2021)
+## Flit Web Manager 4.0.10 (29/10/2021)
 
 ### 🌟 Melhorias
 
@@ -288,7 +288,7 @@
 
 ---
 
-## Flit web manager 4.0.9 (11/10/2021)
+## Flit Web Manager 4.0.9 (11/10/2021)
 
 ### 🚀 Novo
 
