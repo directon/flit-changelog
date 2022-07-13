@@ -1,5 +1,25 @@
 # Novidades da versão
 
+## Flit web manager 4.2.1 (13/07/2022)
+
+### 🔧 Correções
+
+- `Ajuste de jornadas [FM-1050]` - Ajuste interno para voltar a confirmar as jornadas automaticamente de acordo com as configurações.
+
+- `Lançamento simplificado [FM-1039]` - Ajuste interno para melhorar o lançamento retroativo de férias.
+
+- `Lançamento simplificado [FM-1044]` - Ajuste interno no status programado do usuário para que fique com o status correto.
+
+- `Lançamento simplificado [FM-1056]` - Ajuste interno na data final do lançamento simplificado para auto preencher de acordo com a data inicial informada.
+
+- `Folha de ponto [FM-1072]` - Ajuste interno para que o totalizador de horas acumuladas apareça na impressão.
+
+- `Feriado [FM-997]` - Ajuste interno na configuração de feriado para que aplique nas empresas corretas.
+
+- `Reconhecimento facial [FM-1094]` - Ajuste interno para deixar de contar o reconhecimento facial em usuários desligados.
+
+---
+
 ## Flit Web Manager 4.2.0 (30/06/2022)
 
 ### 🚀 Novo
