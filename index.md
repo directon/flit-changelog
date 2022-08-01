@@ -1,5 +1,37 @@
 # Novidades da versão
 
+## Flit Web Manager 4.2.2 (29/07/2022)
+
+
+### 🌟 Melhorias
+
+-  `Lançamento simplificado [FM-1112]` - Liberado a possibilidade de ajustar o lançamento mesmo que a data inicial seja superior a 30 dias.
+
+
+
+### 🔧 Correções
+
+-  `Integração e-contador [FM-1142]` - Ajuste interno na exclusão do lançamento de férias, afastamento e outros quando chegar pelo econtador.
+
+-  `Integração e-contador [FM-1099]` - Ajuste interno para quando houver uma transferência de usuário entre empresas, o sistema consiga demitir o usuário correto e admitir o novo usuário que chegou, tudo isso em apenas uma integração.
+
+-  `Integração e-contador [FM-1105]` - Ajuste interno para quando o sistema identificar que o novo usuário é fruto de uma transferência entre empresas, o novo usuário herde as informações cadastrais do usuário antigo.
+
+-  `Lançamento simplificado [FM-1111]` - Ajuste interno para quando houver exclusão de um lançamento com abono, esse não gere horas negativas.
+
+-  `Lançamento simplificado [FM-1150]` - Melhoria no log de verificações para ficar claro quando um lançamento não alterar a jornada.
+
+-  `Cadastro de usuários [FM-1163]` - Aumentamos a quantidade de máxima de carácteres no campo de e-mail do usuário.
+
+-  `Ajustar jornadas [FM-1089]` - Ajuste interno no cálculo das horas quando há redução de horas noturnas.
+
+-  `Ajustar jornadas [FM-969]` - Ajuste feito para quando houver redução de horas noturnas, fique padronizado mostrando a mesma quantidade de horas no campo de escala prevista e realizada.
+
+-  `Integração e-contador [FM-1153]` - Agora quando é importado um lançamento do e-contador com período muito longo, o mesmo é fracionado de 6 em 6 meses.
+
+
+---
+
 ## Flit Web Manager 4.2.1 (13/07/2022)
 
 ### 🔧 Correções
