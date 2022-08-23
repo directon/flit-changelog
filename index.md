@@ -1,34 +1,58 @@
 # Novidades da versão
 
-## Flit Web Manager 4.2.2 (29/07/2022)
+## Flit Web Manager 4.3.0 (23/08/2022)
 
+### 🚀 Novo
+
+- `Cargo de confiança [FM-1110]` - Agora é possível configurar o cargo de confiança no cadastro do colaborador, para que suas marcações sejam preenchidas sem a necessidade de efetuar o registro de ponto. Com isso, a folha de ponto será preenchida de acordo com a escala de trabalho. Para habilitar essa configuração acesse o cadastro de usuários e vá até a aba parâmetros.
+
+- `Intervalo pré-assinalado [FM-1125]` - Agora é possível configurar o intervalo pré-assinalado, onde o usuário precisará executar apenas as marcações de entrada e saída, não sendo necessário marcar o ponto do intervalo. Para habilitar essa configuração acesse o cadastro de escalas. Importante verificar com sua contabilidade ou jurídico se sua empresa pode utilizar esse recurso antes de habilitá-lo.
 
 ### 🌟 Melhorias
 
--  `Lançamento simplificado [FM-1112]` - Liberado a possibilidade de ajustar o lançamento mesmo que a data inicial seja superior a 30 dias.
+- `Escalas [FM-1122]` - Agora no cadastro de escala é possível duplica-las.
 
-
+- `Eventos Alterdata [FM-1194]` - Melhoria nas configurações de integração com a Alterdata, para exibir uma mensagem dizendo que a rubrica não pode ser duplicada.
 
 ### 🔧 Correções
 
--  `Integração e-contador [FM-1142]` - Ajuste interno na exclusão do lançamento de férias, afastamento e outros quando chegar pelo econtador.
+- `Listagem de usuários [FM-1193]` - Ajuste interno no filtro para que consiga buscar por reconhecimento facial ativo/inativo.
 
--  `Integração e-contador [FM-1099]` - Ajuste interno para quando houver uma transferência de usuário entre empresas, o sistema consiga demitir o usuário correto e admitir o novo usuário que chegou, tudo isso em apenas uma integração.
+- `Ajustar jornadas [FM-1187]` - Ajuste interno nos alertas do ajustar jornadas.
 
--  `Integração e-contador [FM-1105]` - Ajuste interno para quando o sistema identificar que o novo usuário é fruto de uma transferência entre empresas, o novo usuário herde as informações cadastrais do usuário antigo.
+- `Cadastro de usuários [FM-1204]` - Ajuste interno para melhorar a ordenação dos usuários.
 
--  `Lançamento simplificado [FM-1111]` - Ajuste interno para quando houver exclusão de um lançamento com abono, esse não gere horas negativas.
+- `Escalas [FM-1199]` - Ajuste para que usuários demitidos não apareçam na listagem de associar escala.
 
--  `Lançamento simplificado [FM-1150]` - Melhoria no log de verificações para ficar claro quando um lançamento não alterar a jornada.
+- `Dashboard [FM-1219]` - Ajuste interno para melhorar a funcionalidade do dashboard.
 
--  `Cadastro de usuários [FM-1163]` - Aumentamos a quantidade de máxima de carácteres no campo de e-mail do usuário.
+---
 
--  `Ajustar jornadas [FM-1089]` - Ajuste interno no cálculo das horas quando há redução de horas noturnas.
+## Flit Web Manager 4.2.2 (29/07/2022)
 
--  `Ajustar jornadas [FM-969]` - Ajuste feito para quando houver redução de horas noturnas, fique padronizado mostrando a mesma quantidade de horas no campo de escala prevista e realizada.
+### 🌟 Melhorias
 
--  `Integração e-contador [FM-1153]` - Agora quando é importado um lançamento do e-contador com período muito longo, o mesmo é fracionado de 6 em 6 meses.
+- `Lançamento simplificado [FM-1112]` - Liberado a possibilidade de ajustar o lançamento mesmo que a data inicial seja superior a 30 dias.
 
+### 🔧 Correções
+
+- `Integração e-contador [FM-1142]` - Ajuste interno na exclusão do lançamento de férias, afastamento e outros quando chegar pelo econtador.
+
+- `Integração e-contador [FM-1099]` - Ajuste interno para quando houver uma transferência de usuário entre empresas, o sistema consiga demitir o usuário correto e admitir o novo usuário que chegou, tudo isso em apenas uma integração.
+
+- `Integração e-contador [FM-1105]` - Ajuste interno para quando o sistema identificar que o novo usuário é fruto de uma transferência entre empresas, o novo usuário herde as informações cadastrais do usuário antigo.
+
+- `Lançamento simplificado [FM-1111]` - Ajuste interno para quando houver exclusão de um lançamento com abono, esse não gere horas negativas.
+
+- `Lançamento simplificado [FM-1150]` - Melhoria no log de verificações para ficar claro quando um lançamento não alterar a jornada.
+
+- `Cadastro de usuários [FM-1163]` - Aumentamos a quantidade de máxima de carácteres no campo de e-mail do usuário.
+
+- `Ajustar jornadas [FM-1089]` - Ajuste interno no cálculo das horas quando há redução de horas noturnas.
+
+- `Ajustar jornadas [FM-969]` - Ajuste feito para quando houver redução de horas noturnas, fique padronizado mostrando a mesma quantidade de horas no campo de escala prevista e realizada.
+
+- `Integração e-contador [FM-1153]` - Agora quando é importado um lançamento do e-contador com período muito longo, o mesmo é fracionado de 6 em 6 meses.
 
 ---
 
