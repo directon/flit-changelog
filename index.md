@@ -1,4 +1,12 @@
 # Novidades da versão
+## Flit Multi v1.3.3 (21/09/2022)
+### 🚀Novo 
+- `Similaridade Mínima do Reconhecimento Facial [MUL-90]` - Agora é possível configurar a porcentagem da similaridade mínima do Reconhecimento Facial, onde se a similaridade da marcação for menor que o configurado, a marcação não será realizada.  
+A configuração é realizada pelo suporte.
+### 🔧 Correções 
+- `Travamento ao realizar marcações consecutivas [MUL- 89]` - Ajuste interno para que não ocorra travamento ou fechamento do aplicativo, quando é realizada muitas marcações consecutivas.
+
+---
 
 ## Flit Web Manager 4.3.0 (23/08/2022)
 
