@@ -2,6 +2,47 @@
 
 ---
 
+## Flit Web Manager 4.4.0 (29/09/2022)
+
+### 🚀 Novo
+ 
+- `Relatório de usuários [FM-1036]` - Criado novo relatório de usuários, podendo ser exportado em Excel ou PDF de forma simples ou detalhada. Consulte no menu lateral em Relatórios.
+
+- `Auditoria [FM-916]` - Implementado uma nova tela de auditoria. Inicialmente, será possível consultar as alterações feitas nas seguintes telas: Usuários, empresas, parâmetros gerais e feriados. O restante das telas serão adicionadas gradualmente nas próximas versões. Verifique no menu lateral em: Outros > Auditoria.
+### 🌟 Melhorias
+ 
+- `Listam de marcações [FM-1311]` - Melhoria para que seja exibido a coluna de "Perímetros" no grid da listagem de marcações.
+
+- `Folha de ponto [FM-1280]` - Realizado melhoria na folha de ponto para que seja possível ocultar ou exibir a legenda. Essa configuração está disponível através da tela principal da folha de ponto, ao lado dos filtros.
+
+- `Folha de ponto [FM-1290]` - Inserido nova opção para exibir a coluna de intrajornada na folha de ponto, ou não. Essa configuração está disponível através da tela principal da folha de ponto, ao lado dos filtros.
+
+- `Listagem de usuários [FM-1285]` - Agora é possível filtrar pelo status do colaborador, "Ativos", "Desligados" ou "Todos" em todos os filtros de usuários do sistema.
+
+- `Cadastro de usuários [FM-1283]` - Criado novo recurso para que seja possível realizar alterações cadastrais do usuário de forma retroativa. Ou seja, aplicar uma alteração para jornadas passadas. Para isso clique nos (...) três pontos ao lado do salvar do cadastro de usuários e escolha a data para aplicar as alterações.
+ 
+### 🔧 Correções
+ 
+- `Integração Alterdata [FM-1270]` - Ajuste interno quando o feriado cair no domingo e o usuário fizer horas extras, essas horas extras serem levadas no arquivo de integração Alterdata como HE Feriado.
+
+- `Integração Alterdata [FM-1345]` - Ajuste interno na exportação Alterdata, para que as horas extras noturnas também sejam levadas no campo de horas noturnas totais (adicional noturno), independente do regime de compensação da empresa.
+
+- `Integração Alterdata/Dominio [FM-1318]` - Ajuste nos campos de rubricas da Altredata e Domínio, para possibilitar a repetição dos códigos nos campos de horas extras, como exemplo: "Cód. HE seg a sex e Cód. HE sábado" podendo ser utilizados os mesmos códigos em ambos os campos.
+
+- `Banco de horas [FM-1272]` - Ajuste interno no lançamento do banco de horas, para que esse não seja possível lançar a quantidade de horas em branco.
+
+- `Exportação AFDT/ACJEF [FM-1274]` - Ajuste interno na geração dos arquivos oficiais para que seja levado corretamente as marcações com ajuste de ponto manual.
+
+- `Parâmetros gerais [FM-1276]` - Ajuste interno para não permitir inserção de espaços nos campos de "Limite de atraso em minutos" e "Limite de saída em minutos".
+
+- `Cadastro de usuários [FM-1314]` - Ajuste interno ao cadastrar um novo usuário, para que as jornadas do mês sejam criadas de forma retroativa corretamente.
+
+- `Criação de jornadas [FM-1322]` - Modificado a forma de criar jornadas automáticas pelo sistema, para otimizar o tempo de criação.
+
+- `Tela de acessos [FM-1337]` - Novas telas adicionadas na configuração de acesso do gestor: "Lançamentos, relatórios e auditoria". Verifique em menu lateral > Outros > Acessos.
+
+---
+
 ## Flit Multi v1.3.3 (21/09/2022)
 ### 🚀Novo 
 - `Similaridade Mínima do Reconhecimento Facial [MUL-90]` - Agora é possível configurar a porcentagem da similaridade mínima do Reconhecimento Facial, onde se a similaridade da marcação for menor que o configurado, a marcação não será realizada.  
