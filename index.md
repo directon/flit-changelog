@@ -11,7 +11,7 @@
 - `Auditoria [FM-916]` - Implementado uma nova tela de auditoria. Inicialmente, será possível consultar as alterações feitas nas seguintes telas: Usuários, empresas, parâmetros gerais e feriados. O restante das telas serão adicionadas gradualmente nas próximas versões. Verifique no menu lateral em: Outros > Auditoria.
 ### 🌟 Melhorias
  
-- `Listam de marcações [FM-1311]` - Melhoria para que seja exibido a coluna de "Perímetros" no grid da listagem de marcações.
+- `Listagem de marcações [FM-1311]` - Melhoria para que seja exibido a coluna de "Perímetros" no grid da listagem de marcações.
 
 - `Folha de ponto [FM-1280]` - Realizado melhoria na folha de ponto para que seja possível ocultar ou exibir a legenda. Essa configuração está disponível através da tela principal da folha de ponto, ao lado dos filtros.
 
