@@ -9,6 +9,7 @@
 - `Relatório de usuários [FM-1036]` - Criado novo relatório de usuários, podendo ser exportado em Excel ou PDF de forma simples ou detalhada. Consulte no menu lateral em Relatórios.
 
 - `Auditoria [FM-916]` - Implementado uma nova tela de auditoria. Inicialmente, será possível consultar as alterações feitas nas seguintes telas: Usuários, empresas, parâmetros gerais e feriados. O restante das telas serão adicionadas gradualmente nas próximas versões. Verifique no menu lateral em: Outros > Auditoria.
+
 ### 🌟 Melhorias
  
 - `Listagem de marcações [FM-1311]` - Melhoria para que seja exibido a coluna de "Perímetros" no grid da listagem de marcações.
@@ -44,10 +45,13 @@
 ---
 
 ## Flit Multi v1.3.3 (21/09/2022)
-### 🚀Novo 
+
+### 🚀Novo
+
 - `Similaridade Mínima do Reconhecimento Facial [MUL-90]` - Agora é possível configurar a porcentagem da similaridade mínima do Reconhecimento Facial, onde se a similaridade da marcação for menor que o configurado, a marcação não será realizada.  
 A configuração é realizada pelo suporte.
-### 🔧 Correções 
+### 🔧 Correções
+
 - `Travamento ao realizar marcações consecutivas [MUL- 89]` - Ajuste interno para que não ocorra travamento ou fechamento do aplicativo, quando é realizada muitas marcações consecutivas.
 
 ---
