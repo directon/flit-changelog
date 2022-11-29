@@ -2,7 +2,7 @@
 
 ---
 
-## Flit Web Manager 4.5.0 (29/11/2022)
+## Flit Web Manager 4.5.0 (30/11/2022)
 
 ### 🚀 Novo
 
@@ -20,7 +20,7 @@
 
 - `Data de admissão [FM-1458]` - Ajuste interno no cadastro de usuários, para quando inserir data de admissão futura e depois ajuste para a data correta, o sistema altere normalmente para a nova informação inserida.
 
-- `Jornadas [FM-1452]` - Ajuste interno para que as marcações de ponto entre na jornada correta quando existir marcação pré-assinaladas.
+- `Ajuste de jornadas [FM-1452]` - Ajuste interno para que as marcações de ponto entre na jornada correta quando existir marcação pré-assinaladas.
 
 - `Ajuste de jornadas [FM-1418]` - Ajuste interno para que ao ajustar uma jornada de forma manual o tipo mude para "Ajuste manual".
 
