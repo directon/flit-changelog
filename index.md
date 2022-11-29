@@ -2,15 +2,40 @@
 
 ---
 
+## Flit Web Manager 4.5.0 (29/11/2022)
+
+### 🚀 Novo
+
+- `Novo relatório de saldos [FM-1286]` - Implementado relatório de saldos, que tem como objetivo tornar a consulta simples e rápida, das horas extras, atrasos, faltas e muito mais. Consulte em relatórios no menu lateral do Manager.
+
+- `Novo relatório de saldos acumulados [FM-1378]` - Nesse relatório, será possível consultar os saldos acumulados de forma detalhada e rápida, consultando o saldo dia a dia, para horas trabalhadas, banco de horas, horas noturnas, horas extras, entre outros...
+
+- `Integração com o eContador [FM-1380]` - Agora é possível fazer a configuração de integração com o eContador (plataforma que integra o DP Alterdata com Flit), pelo próprio Flit manager, facilitando a integração de usuários, departamentos, cargos, inclusão de férias, desligamentos , entre outros. Basta acessar o menu lateral, ir em Outros e depois em Integrações. Com essa integração habilitada, será necessário apenas cadastrar algumas informações do sistema de Departamento Pessoal Pack Alterdata que serão integrados com o Flit. Apenas escala de trabalho não integrará, deverá esse ser cadastrado no Flit.
+
+- `Arquivo AEJ [FM-1362]` - Agora de acordo com exigências da portaria 671, é possível gerar o novo arquivo fiscal AEJ. Basta clicar em exportações oficiais, em exportar dados que fica na aba frequência do menu lateral do manager.
+
+- `Exportação PROSOFT/NASAJON [FM-1408]` - Criado exportação de ocorrências para os sistemas de folha de pagamento PROSOFT e NASAJON através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados.
+
+### 🔧 Correções
+
+- `Data de admissão [FM-1458]` - Ajuste interno no cadastro de usuários, para quando inserir data de admissão futura e depois ajuste para a data correta, o sistema altere normalmente para a nova informação inserida.
+
+- `Jornadas [FM-1452]` - Ajuste interno para que as marcações de ponto entre na jornada correta quando existir marcação pré-assinaladas.
+
+- `Ajuste de jornadas [FM-1418]` - Ajuste interno para que ao ajustar uma jornada de forma manual o tipo mude para "Ajuste manual".
+
+---
+
 ## Flit Web Manager 4.4.0 (29/09/2022)
 
 ### 🚀 Novo
- 
+
 - `Relatório de usuários [FM-1036]` - Criado novo relatório de usuários, podendo ser exportado em Excel ou PDF de forma simples ou detalhada. Consulte no menu lateral em Relatórios.
 
 - `Auditoria [FM-916]` - Implementado uma nova tela de auditoria. Inicialmente, será possível consultar as alterações feitas nas seguintes telas: Usuários, empresas, parâmetros gerais e feriados. O restante das telas serão adicionadas gradualmente nas próximas versões. Verifique no menu lateral em: Outros > Auditoria.
+
 ### 🌟 Melhorias
- 
+
 - `Listam de marcações [FM-1311]` - Melhoria para que seja exibido a coluna de "Perímetros" no grid da listagem de marcações.
 
 - `Folha de ponto [FM-1280]` - Realizado melhoria na folha de ponto para que seja possível ocultar ou exibir a legenda. Essa configuração está disponível através da tela principal da folha de ponto, ao lado dos filtros.
@@ -20,9 +45,9 @@
 - `Listagem de usuários [FM-1285]` - Agora é possível filtrar pelo status do colaborador, "Ativos", "Desligados" ou "Todos" em todos os filtros de usuários do sistema.
 
 - `Cadastro de usuários [FM-1283]` - Criado novo recurso para que seja possível realizar alterações cadastrais do usuário de forma retroativa. Ou seja, aplicar uma alteração para jornadas passadas. Para isso clique nos (...) três pontos ao lado do salvar do cadastro de usuários e escolha a data para aplicar as alterações.
- 
+
 ### 🔧 Correções
- 
+
 - `Integração Alterdata [FM-1270]` - Ajuste interno quando o feriado cair no domingo e o usuário fizer horas extras, essas horas extras serem levadas no arquivo de integração Alterdata como HE Feriado.
 
 - `Integração Alterdata [FM-1345]` - Ajuste interno na exportação Alterdata, para que as horas extras noturnas também sejam levadas no campo de horas noturnas totais (adicional noturno), independente do regime de compensação da empresa.
@@ -44,10 +69,14 @@
 ---
 
 ## Flit Multi v1.3.3 (21/09/2022)
-### 🚀Novo 
+
+### 🚀Novo
+
 - `Similaridade Mínima do Reconhecimento Facial [MUL-90]` - Agora é possível configurar a porcentagem da similaridade mínima do Reconhecimento Facial, onde se a similaridade da marcação for menor que o configurado, a marcação não será realizada.  
-A configuração é realizada pelo suporte.
-### 🔧 Correções 
+  A configuração é realizada pelo suporte.
+
+### 🔧 Correções
+
 - `Travamento ao realizar marcações consecutivas [MUL- 89]` - Ajuste interno para que não ocorra travamento ou fechamento do aplicativo, quando é realizada muitas marcações consecutivas.
 
 ---
@@ -138,7 +167,7 @@ A configuração é realizada pelo suporte.
 
 - `Status do usuário [FM-726]` - Agora o status do usuário será modificado apenas pela tela de Lançamentos, alterando para férias, afastado e contrato suspenso. Antes poderia ser modificado no cadastro de usuários, mas agora ficou pela tela de lançamentos.
 
-- `Comprovante de ponto [FM-725]` - Criado nova tela para consulta do comprovante de ponto. O colaborador pode consultar através de um navegador, mesmo pelo celular, o seguinte link: https://comprovante.flitapp.com.br/#/login.
+- `Comprovante de ponto [FM-725]` - Criado nova tela para consulta do comprovante de ponto. O colaborador pode consultar através de um navegador, mesmo pelo celular, o seguinte link: <https://comprovante.flitapp.com.br/#/login>.
 
 - `Listagem de usuários [FM-857]` - Criado filtro no cadastro de usuários, para que na listagem exiba apenas os ativos. Caso queira analisar os desligados, pode-se utilizar o filtro para a pesquisa.
 
