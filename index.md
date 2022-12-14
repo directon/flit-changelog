@@ -2,6 +2,28 @@
 
 ---
 
+## Flit Web Manager 4.5.1 (14/12/2022)
+
+### 🚀 Novo
+
+- `Escala [FM-1393]` - Agora é possível definir o regime de compensação horas extras ou banco de horas por dias da semana. Exemplo: de segunda-feira à quinta-feira você pode configurar para trabalhar como **horas extras**, já nos dias sexta-feira, sábado, domingo e feriados como **banco de horas**. Esse recurso você configura diretamente na escala de trabalho.
+
+### 🌟 Melhorias
+
+- `Listagem de marcações [FM-1496]` - Melhoria ao visualizar uma marcação que não possui uma localização definida na listagem de marcações, deixando mais claro que o endereço não foi definido no momento da marcação do ponto.
+
+### 🔧 Correções
+
+- `Folha de ponto [FM-1361]` - Ajuste interno para quando marcar o parâmetro "exibir legenda do tipo dos períodos" na folha de ponto, o sistema efetue uma busca automaticamente ao aplicar a configuração.
+
+- `Lançamentos [FM-1333]` - Ajuste interno na aba "acessos" para que seja possível bloquear o acesso do gestor à tela de lançamentos.
+
+- `Listagem de marcações [FM-966]` - Ajuste interno na listagem de marcações, para que seja possível exportar para Excel a coluna de departamento.
+
+- `Cadastro da empresa [FM-1487]` - Ajuste interno para permitir inserir números no campo "Rua", no cadastro da empresas.
+
+---
+
 ## Flit Web Manager 4.5.0 (30/11/2022)
 
 ### 🚀 Novo
