@@ -2,6 +2,50 @@
 
 ---
 
+## Flit Web Manager 4.6.0 (19/01/2023)
+
+### 🚀 Novo
+
+- `Exportações de folha de pagamento [FM-1543]` - Foram unificadas as exportações para sistemas de folha de pagamento, passando todas para o mesmo local: (Frequência > Exportar dados > Exportações para folha de pagamento).
+
+- `Exportação Questor [FM-1539]` - Agora é possível exportar os dados para o sistema de folha de pagamento Questor.
+
+- `Exportações de folha de pagamento [FM-1586]`  - Disponibilizamos a possibilidade de exportar a rúbrica "Horas normais" para os sistemas Alterdata, Prosoft, Nasajon e Questor.
+
+### 🌟 Melhorias
+
+- `Marcação [FM-1520]` - Ajuste interno para que os comprovantes de marcação de ponto, levem o HASH e NSR conforme exigido pela portaria 671.
+
+- `Marcação [FM-1545]` - Ajuste interno nos comprovantes de marcação de ponto, para terem a assinatura digital da empresa desenvolvedora do software conforme exigido pela portaria 671.
+
+- `Folha de ponto [FM-1526]` - Ajuste interno na folha de ponto para exibir o CPF do colaborador no cabeçalho.
+
+- `Termo de uso [FM-1583]` - Melhoria para que o termo de uso fique sempre disponível. Com o Flit Manager aberto, ao clicar no canto superior direito, onde fica a foto do gestor, será exibido o "Termo de uso".
+
+- `Política de privacidade [FM-1581]` - Melhoria para que a política de privacidade fique sempre disponível. Com o Flit Manager aberto, ao clicar no canto superior direito, onde fica a foto do gestor, será exibido o "Política de Privacidade".
+
+- `Folha de ponto [FM-1532]` - Ajuste para que seja possível ocultar as observações da folha de ponto. Para fazer isso, basta acessar as configurações da folha de ponto, na aba da folha de ponto.
+
+- `Folha de ponto [FM-1534]` - Ajuste interno para exibir o código de matrícula do colaborador.
+
+- `Relatórios [FM-1536]` - Melhorias de usabilidade foram feitas nos relatórios do sistema.
+
+- `Seleção de datas [FM-1550]` - Ajuste para ser possível digitar as datas do período desejado, sem precisar selecionar pelo calendário.
+
+- `Folha de ponto [FM-1597]` - A folha de ponto foi movida para o agrupamento "Relatórios". O novo caminho é: (Relatórios -> Folha de ponto).
+
+- `Código externo [FM-1602]` - O campo de código externo do departamento foi removido.
+
+- `Importação de AFD [FM-1430]` - Ajuste interno na importação do AFD, em casos onde há usuários cadastrados com o mesmo PIS, um desligado e um ativo, para que respeite sempre o ativo.
+
+### 🔧 Correções
+
+- `Intervalo pré-assinalada [FM-1592]` - Ajuste interno na funcionalidade do intervalo pré-assinalado.
+
+- `Lançamentos [FM-1589]` - Ajuste para que a opção "Válido para todos os colaboradores da empresa" aplique corretamente quando marcada.
+
+---
+
 ## Flit Web Manager 4.5.1 (14/12/2022)
 
 ### 🚀 Novo
@@ -189,7 +233,7 @@
 
 - `Status do usuário [FM-726]` - Agora o status do usuário será modificado apenas pela tela de Lançamentos, alterando para férias, afastado e contrato suspenso. Antes poderia ser modificado no cadastro de usuários, mas agora ficou pela tela de lançamentos.
 
-- `Comprovante de ponto [FM-725]` - Criado nova tela para consulta do comprovante de ponto. O colaborador pode consultar através de um navegador, mesmo pelo celular, o seguinte link: https://comprovante.flitapp.com.br/#/login.
+- `Comprovante de ponto [FM-725]` - Criado nova tela para consulta do comprovante de ponto. O colaborador pode consultar através de um navegador, mesmo pelo celular, o seguinte link: <https://comprovante.flitapp.com.br/#/login>.
 
 - `Listagem de usuários [FM-857]` - Criado filtro no cadastro de usuários, para que na listagem exiba apenas os ativos. Caso queira analisar os desligados, pode-se utilizar o filtro para a pesquisa.
 
