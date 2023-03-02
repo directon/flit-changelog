@@ -2,6 +2,38 @@
 
 ---
 
+## Flit Manager 4.7.0 (02/03/2023)
+
+### 🚀 Novo
+
+- `Endereço prestação de serviço [FM-1473]` - Se adequando à nova portaria 671, agora, existe um campo no endereço do colaborador onde é permitido informar o local da prestação de serviço do mesmo.
+
+- `Exportação AFD [FM-1668]` - Ajuste na exportação do arquivo AFD para ser gerado de acordo com o plano contratado, diferenciando entre REP-A e REP-P conforme portaria.
+
+- `Exportação AEJ [FM-1648]` - Ajuste interno na geração do arquivo AEJ para ser gerado de acordo com o plano contratado, diferenciando entre REP-A e REP-P conforme portaria.
+
+- `Importação AFD [FM-1593]` - Agora também é possível importar marcações para o Flit, utilizando o arquivo AFD com a estrutura da portaria 671.
+
+- `Crachá [FM-1640]` - Agora é possível gerar QR Code, contendo o número de matrícula do funcionário e também imprimir para que o colaborador registre o ponto no Flit Multi, utilizando esse QR Code. Esse recurso deve ser habilitado no cadastro de dispositivo Flit Multi e estará disponível para impressão no cadastro de usuários.
+
+### 🌟 Melhorias
+
+- `Desligamento de usuário [FM-1710]` - Ajuste interno para que mesmo após a data de desligamento do colaborador, tenha jornada incompleta, seja possível desligar o usuário, sem bloqueio.
+
+- `Listagem de marcação [FM-1706]` - Ajuste interno na listagem de marcações, para apresentar o nome do dispositivo onde o colaborador fez a marcação de ponto.
+
+- `Recuperação de senha [FM-1652]` - Ajuste interno no serviço de recuperação de senha.
+
+- `Integração [FM-1652]` - Incluído em acessos a opção para bloquear a tela de integração de um determinado gestor.
+
+### 🔧 Correções
+
+- `Política de privacidade [FM-1704]` - Ajuste interno na política de privacidade.
+
+- `Cadastro de usuários [FM-1754]` - Correção interna para melhorar a ordenação dos usuários por código de matrícula no cadastro de usuários.
+
+---
+
 ## Flit Web Manager 4.6.0 (19/01/2023)
 
 ### 🚀 Novo
@@ -10,7 +42,7 @@
 
 - `Exportação Questor [FM-1539]` - Agora é possível exportar os dados para o sistema de folha de pagamento Questor.
 
-- `Exportações de folha de pagamento [FM-1586]`  - Disponibilizamos a possibilidade de exportar a rúbrica "Horas normais" para os sistemas Alterdata, Prosoft, Nasajon e Questor.
+- `Exportações de folha de pagamento [FM-1586]` - Disponibilizamos a possibilidade de exportar a rúbrica "Horas normais" para os sistemas Alterdata, Prosoft, Nasajon e Questor.
 
 ### 🌟 Melhorias
 
