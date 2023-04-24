@@ -2,6 +2,46 @@
 
 ---
 
+## Flit Manager 4.8.0 (24/04/2023)
+
+### 🌟 Melhorias
+
+- `Integração e-contador [FM-1887]` - Melhoria na integração do e-contador para que não seja possível fazer duas integrações no mesmo momento.
+
+- `Cadastro de ocorrências [FM-1863]` - Melhoria no cadastro de ocorrências de frequência, para que seja possível cadastrar ocorrências com a mesma descrição de outras que foram excluídas.
+
+- `Relatório de saldos [FM-1853]` - Realizado melhoria no relatório de saldos para exibir uma coluna de atestados.
+
+- `Folha de ponto [FM-1826]` - Agora nas configurações da folha de ponto, será possível escolher se deseja exibir a ocorrência da frequência por tipo ou descrição.
+
+- `Folha de ponto [FM-1823]` - Criado nova configuração na folha de ponto, para a opção de manter a descrição da jornada apenas em uma linha. Sendo bem útil para quem prefere fazer a impressão da folha de ponto do usuário em apenas uma folha.
+
+- `Ajustar jornadas [FM-1819]` - Melhoria interna na duração das jornadas, onde foi aumentada de 24 horas para 72 horas.
+
+- `Exportação Nasajon [FM-1817]` - Agora na exportação da Nasajon tem o campo: "Horas extras intrajornada com redução de hora noturna".
+
+- `Relatório de saldos [FM-1813]` - O relatório de saldos passou a exibir as colunas de horas trabalhadas no feriado e folga.
+
+- `Cadastro de usuários [FM-1790]` - Melhoria feita no campo de matrícula, onde será possível clicar no botão de geração de matrícula e automaticamente será informado uma matrícula aleatória para o usuário. Na aba "Integrações" também foi adicionado um botão para quando chegar um novo cadastro de usuário no Flit Manager, a matrícula já venha preenchida.
+
+- `Integração e-contador [FM-1779]` - Melhoria na integração para que o cargo também passe a ser integrado no cadastro do usuário.
+
+- `Integração e-contador [FM-1776]` - Melhoria na integração para quando acontecer uma transferência entre empresas, o banco de horas do usuário também migre para a nova empresa.
+
+### 🔧 Correções
+
+- `Banco de horas/Ajustar jornadas [FM-1856]` - Ajuste interno na tela de ajuste de jornadas, para exibir a quantidade de banco de horas total quando ultrapassar mais de 3 dígitos, exemplo: 150 Horas.
+
+- `Lançamentos [FM-1837]` - Ajuste interno no comportamento da data final do lançamento.
+
+- `Jornadas [FM-1832]` - Ajuste interno para que as jornadas passem a ser criadas também no dia do desligamento do usuário.
+
+- `Jornadas [FM-1807]` - Ajuste interno para melhorar o comportamento das marcações pré-assinaladas.
+
+- `Comprovante de marcação [FM-1805]` - Ajuste interno no fuso horário do comprovante de marcação, para que sempre leve o fuso horário correto da marcação.
+
+---
+
 ## Flit Manager 4.7.0 (02/03/2023)
 
 ### 🚀 Novo
