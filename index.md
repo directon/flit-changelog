@@ -2,6 +2,14 @@
 
 ---
 
+## Flit Manager v4.9.0 (24/05/2023)
+
+### 🚀 Novo
+
+- `SOLICITAÇÕES DE AJUSTES [FM-437]` - Agora, os usuários podem solicitar ajustes da marcação de ponto por uma interface amigável, fornecendo detalhes sobre o motivo da solicitação. Essas cobranças são feitas em casos de esquecimento de marcação, atestados e abonos. Podendo anexar documentos da galeria ou fotógrafos um documento no momento da solicitação. Os gerenciadores recebem notificações automáticas e podem aprovar ou rejeitar como aprovação. O registro é mantido para referência futura, promovendo uma comunicação transparente e resolução eficiente de problemas.
+
+---
+
 ## Flit Manager 4.8.0 (24/04/2023)
 
 ### 🌟 Melhorias
