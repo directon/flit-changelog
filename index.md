@@ -6,7 +6,7 @@
 
 ### 🚀 Novo
 
-- `Ajustes solicitados [FM-437]` - Agora, os usuários podem **solicitar ajustes da marcação de ponto por uma interface amigável**, fornecendo detalhes sobre o motivo da solicitação. Essas cobranças são feitas em casos de **esquecimento de marcação, atestados e abonos**. Podendo anexar documentos da galeria ou fotos de um documento no momento da solicitação. Os gestores também recebem notificações automáticas e podem **aprovar ou rejeitar** a solicitação. Promovendo uma comunicação transparente e resolução eficiente de situações com os colaboradores.
+- `Ajustes solicitados [FM-437]` - Agora, os usuários podem **solicitar ajustes da marcação de ponto por uma interface amigável**, fornecendo detalhes sobre o motivo da solicitação. Estas solicitações são feitas em casos de **esquecimento de marcação, atestados e abonos**. Podendo anexar documentos da galeria ou fotos de um documento no momento da solicitação. Os gestores também recebem notificações automáticas e podem **aprovar ou rejeitar** a solicitação. Promovendo uma comunicação transparente e resolução eficiente de situações com os colaboradores.
 
 ---
 
