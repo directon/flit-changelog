@@ -40,13 +40,13 @@
  
 - `Cadastro usuário [FM-1598]` - No cadastro do colaborador, na aba perímetro, a partir de agora não é mais necessário marcar a opção de perímetro padrão.
  
--`Exportação Alterdata [FM-1598]` - Incluído o campo "Mês de referência" na aba exportar dados, para quando a exportação for para o sistema de folha de pagamento Alterdata, seja inserido o período compatível para leitura do arquivo no DP, sem a necessidade de alterar datas manualmente no arquivo. 
+- `Exportação Alterdata [FM-1598]` - Incluído o campo "Mês de referência" na aba exportar dados, para quando a exportação for para o sistema de folha de pagamento Alterdata, seja inserido o período compatível para leitura do arquivo no DP, sem a necessidade de alterar datas manualmente no arquivo. 
  
 - `Integração eContador [FM-2119]` - Não enviar os dados do colaborador para Flit Gestor se a empresa não estiver cadastrada pelo eContador (plataforma que integra o DP Alterdata com Flit). 
  
 - `Usuários  [FM-1003]` -  Ajuste para não exibir a coluna de reconhecimento facial no cadastro de usuários, para aquelas empresas que não contrataram o reconhecimento facial em seu pacote.
  
-- `Ajustes solicitados [FM-2115 ]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado
+- `Ajustes solicitados [FM-2115]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado
 
 ### 🔧 Correções
 
@@ -60,7 +60,7 @@
  
 - `Cadastro de usuários [FM-1919]` - Ajuste interno para não permitir excluir o lançamento de banco de horas feito no cadastro do colaborador após a data da trava do sistema (60 dias). 
  
-- `Ajustes Jornada [FM-1338 ]` - Ajuste interno, quando a opção "Cargo de confiança" estiver marcada no cadastro do colaborador e for necessário retroagir a escala, a jornada desse colaborador vai permanecer como "Jornada verificada".
+- `Ajustes Jornada [FM-1338]` - Ajuste interno, quando a opção "Cargo de confiança" estiver marcada no cadastro do colaborador e for necessário retroagir a escala, a jornada desse colaborador vai permanecer como "Jornada verificada".
  
 - `Relatório de Saldos [FM-2008]` - Ajuste no relatório de saldos, na descrição do campo "Horas trabalhadas no feriado/folga".
 
@@ -72,7 +72,7 @@
 
 - `Escala [FM-2006]` - Ajuste no cadastro de escalas, na descrição do campo "Intervalo pré-assinalado".
 
-- `Relatório Saldos [FM-2088 ]` - Ajuste interno no relatório de saldos, para que ao filtrar o relatório de saldos mudando a ordem alfabética, o campo total de horas trabalhadas no feriado seja levado corretamente.
+- `Relatório Saldos [FM-2088]` - Ajuste interno no relatório de saldos, para que ao filtrar o relatório de saldos mudando a ordem alfabética, o campo total de horas trabalhadas no feriado seja levado corretamente.
 
 ---
 
