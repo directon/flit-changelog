@@ -42,9 +42,9 @@
  
 -`Exportação Alterdata [FM-1598]` - Incluído o campo "Mês de referência" na aba exportar dados, para quando a exportação for para o sistema de folha de pagamento Alterdata, seja inserido o período compatível para leitura do arquivo no DP, sem a necessidade de alterar datas manualmente no arquivo. 
  
-- `Integração eContador [FM-2119] - Não enviar os dados do colaborador para Flit Gestor se a empresa não estiver cadastrada pelo eContador (plataforma que integra o DP Alterdata com Flit). 
+- `Integração eContador [FM-2119]` - Não enviar os dados do colaborador para Flit Gestor se a empresa não estiver cadastrada pelo eContador (plataforma que integra o DP Alterdata com Flit). 
  
-- `Usuários  [FM-1003] -  Ajuste para não exibir a coluna de reconhecimento facial no cadastro de usuários, para aquelas empresas que não contrataram o reconhecimento facial em seu pacote.
+- `Usuários  [FM-1003]` -  Ajuste para não exibir a coluna de reconhecimento facial no cadastro de usuários, para aquelas empresas que não contrataram o reconhecimento facial em seu pacote.
  
 - `Ajustes solicitados [FM-2115 ]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado
 
