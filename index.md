@@ -46,7 +46,7 @@
  
 - `Usuários  [FM-1003]` -  Ajuste para não exibir a coluna de reconhecimento facial no cadastro de usuários, para aquelas empresas que não contrataram o reconhecimento facial em seu pacote.
  
-- `Ajustes solicitados [FM-2115]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado
+- `Ajustes solicitados [FM-2115]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado.
 
 ### 🔧 Correções
 
