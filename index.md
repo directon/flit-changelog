@@ -2,6 +2,80 @@
 
 ---
 
+## Nome do App v4.10.0 (31/08/2023)
+ 
+### 🚀 Novo
+ 
+- `Relatório de ponto [FM-1983]` - Reformulamos o antigo relatório de folha de ponto para proporcionar maior eficiência e opções mais abrangentes na geração de dados sobre os turnos de trabalho de seus colaboradores. Isso contribui para um melhor gerenciamento empresarial. Agora estamos chamando de Relatório de ponto, que pode ser gerado o espelho de ponto com padrão da portaria 671, ou podem ser criados novos layouts personalizando entre colunas, cabeçalho e totalizadores. Se os relatórios customizados ficarem sem os campos obrigatórios da portaria 671, ele deixa de se chamar espelho de ponto e vira relatório de ponto.
+ 
+- `Horista [FM-248]` - Implementado a funcionalidade horista, viabilizando o registro de colaboradores atuando nesse regime. Nesse cenário, não se torna obrigatório vincular os colaboradores a uma escala de trabalho. E para configurar é bem simples, basta acessar o cadastro de usuários e na opção de escala, marcar a opção horista. Feito isso, todas as jornadas do colaborador, assim como espelho de ponto, serão tratados com horas trabalhadas e não por escala de trabalho.
+ 
+- `Faixa de hora extra semanal [FM-721]` - Criado novo recurso que possibilita a criação da faixa de hora extra semanal, especificando o percentual de hora extra por dia da semana. Desta forma será possível visualizar no espelho de ponto essas horas extras semanais, bem como exportar para o sistema de folha de pagamento. Após criar essa faixa, basta vincular no cadastro de escala em uma nova aba que foi criada. 
+
+- `Faixa de hora extra diferenciada [FM-245]` - Criado novo recurso que possibilita a criação da faixa de hora extra diferenciada, conseguindo incluir o percentual de hora extra de acordo com a quantidade de horas. Se na sua empresa tem diferenciação de percentual por quantidade de horas, esse é o recurso certo. Desta forma será possível visualizar no espelho de ponto essas horas extras diferenciadas, bem como exportar para o sistema de folha de pagamento. Após criar essa faixa, basta vincular no cadastro de escala em uma nova aba que foi criada
+ 
+- `Espelho de ponto [FM-2063]` - Foi criado novo recurso para os gestores terem a opção de habilitar a exibição do espelho de ponto para os colaboradores que utilizam o Flit App. Se habilitado, será exibido no aplicativo as informações do espelho de ponto.
+ 
+- `Integração eContador [FM-1916]` - Quando é realizado a integração com o eContador (plataforma que integra o DP Alterdata com Flit), agora será apresentado no cadastro do usuário um ícone, exibindo se o cadastro foi realizado no Flit Gestor manualmente ou através da integração com o eContador Alterdata. 
+ 
+- `Exportação NetSpeed/Dexion [FM-1879] [FM-2080]` - Criado exportação de ocorrências para os sistemas de folha de pagamento NetSpeed e Dexion através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados.
+ 
+- `Exportar dados para folha de pagamento [FM-1146]` - Incluído o campo de horas trabalhadas na exportação para o sistema de folha de pagamento, onde são levadas as horas trabalhadas do colaborador.
+ 
+### 🌟 Melhorias 
+ 
+- `Lançamentos [FM-1698]` - Ao lançar abono parcial ou atestado parcial irá mostrar o tempo percorrido.
+ 
+- `Cadastro de empresa [FM-2004]` -Agora não será permitido excluir uma empresa quando houver dispositivo Flit Multi vinculado. 
+ 
+- `Parâmetros gerais [FM-1711]` - Neste recurso  o gestor tem a opção do usuário visualizar ou não o saldo  banco de horas no Flit App. 
+ 
+- `Dispositivo (Flit Multi) [FM-2132]` - Melhoria interna na marcação por QR Code. Agora o gestor pode optar por realizar a marcação por crachá (QR Code) sem tocar na tela no momento da marcação. Para isso, basta marcar a opção “marcação por crachá sem toque”, no cadastro de dispositivos.
+ 
+- `Exportação Prosoft - [FM-2138]` - Na exportação para o sistema de folha de pagamento Prosoft, os valores a partir de agora serão levados em minutos ao invés de horas, compatibilizando com o padrão de importação Prosoft.
+ 
+- `Integração eContador [FM-2044]` - A Partir de agora a integração do eContador (plataforma que integra o DP Alterdata com Flit) é feita automaticamente de 1 hora em 1 hora, dentro do período 06:00 horas às 21:00 horas. Caso precise que a informação chegue de forma rápida no Flit, basta clicar na opção "forçar integração" na aba de integrações.
+  
+- `Exportação Alterdata [FM-1874]` - Nas exportações para a Alterdata, foi Incluído o campo "Tipo de exportação" onde poderá informar "Folha normal" ou "Folha complementar". 
+ 
+- `Cadastro usuário [FM-1598]` - No cadastro do colaborador, na aba perímetro, a partir de agora não é mais necessário marcar a opção de perímetro padrão.
+ 
+-`Exportação Alterdata [FM-1598]` - Incluído o campo "Mês de referência" na aba exportar dados, para quando a exportação for para o sistema de folha de pagamento Alterdata, seja inserido o período compatível para leitura do arquivo no DP, sem a necessidade de alterar datas manualmente no arquivo. 
+ 
+- `Integração eContador [FM-2119] - Não enviar os dados do colaborador para Flit Gestor se a empresa não estiver cadastrada pelo eContador (plataforma que integra o DP Alterdata com Flit). 
+ 
+- `Usuários  [FM-1003] -  Ajuste para não exibir a coluna de reconhecimento facial no cadastro de usuários, para aquelas empresas que não contrataram o reconhecimento facial em seu pacote.
+ 
+- `Ajustes solicitados [FM-2115 ]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado
+
+### 🔧 Correções
+
+- `Lançamentos  [FM-1623]` - Ajuste interno no lançamento da ocorrência Falta BH, quando lançado abate valores do banco de horas do funcionário.
+ 
+- `Cadastro usuário [FM-2023]` - Ajuste interno para desabilitar a opção "Permitir marcar ponto no navegador web" quando não houver e-mail informado no cadastro do usuário. 
+ 
+- `Solicitações de usuários [FM-2057]` - Ajuste interno para quando é feita a solicitação de marcação, o banco de horas é atualizado de acordo com a solicitação feita. 
+ 
+- `Integração eContador [FM-2093]` -  Ajuste interno, para que a foto do colaborador seja inserida no Flit Gestor, mesmo que esse procedimento seja feito após a primeira integração. 
+ 
+- `Cadastro de usuários [FM-1919]` - Ajuste interno para não permitir excluir o lançamento de banco de horas feito no cadastro do colaborador após a data da trava do sistema (60 dias). 
+ 
+- `Ajustes Jornada [FM-1338 ]` - Ajuste interno, quando a opção "Cargo de confiança" estiver marcada no cadastro do colaborador e for necessário retroagir a escala, a jornada desse colaborador vai permanecer como "Jornada verificada".
+ 
+- `Relatório de Saldos [FM-2008]` - Ajuste no relatório de saldos, na descrição do campo "Horas trabalhadas no feriado/folga".
+
+- `Relatórios de Saldos acumulados e Usuários [FM-2009] [FM-2010]` -  Ajuste no relatório de saldos acumulados, no formato de data e hora em que os relatórios foram gerados. 
+
+- `Lançamento [FM-2027]` - Ajuste interno,para incluir ocorrência da frequência em todas as jornadas que houverem lançamentos.
+
+- `Importar marcações [FM-1878]` -   Ajuste interno na importação de AFD para que não duplique as jornadas.
+
+- `Escala [FM-2006]` - Ajuste no cadastro de escalas, na descrição do campo "Intervalo pré-assinalado".
+
+- `Relatório Saldos [FM-2088 ]` - Ajuste interno no relatório de saldos, para que ao filtrar o relatório de saldos mudando a ordem alfabética, o campo total de horas trabalhadas no feriado seja levado corretamente.
+
+---
+
 ## Flit Manager v4.9.0 (24/05/2023)
 
 ### 🚀 Novo
