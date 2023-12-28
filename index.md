@@ -1,6 +1,6 @@
 # Novidades da versão
 
-## Flit Web Gestor v4.11.00 (28/12/2023)
+## Flit Web Gestor v4.11.0 (28/12/2023)
  
 ### 🚀 Novo
  
