@@ -1,8 +1,85 @@
 # Novidades da versão
 
+## Flit Web Gestor v4.11.00 (28/12/2023)
+ 
+### 🚀 Novo
+ 
+- `Saldo de banco de horas [FM-2155]` - Nova opção no cadastro de empresas. Agora, será possível configurar em cada empresa, aba parâmetros, se deseja "Exibir  banco de horas no Flit App", ou seja, se o saldo de banco de horas será exibido para o colaborador ou não no aplicativo Flit App. Essa configuração também pode ser feita de forma geral na conta, no menu lateral em outros, parâmetros gerais.  
+ 
+- `Lançamento [FM-2158]` - A partir de agora, será possível incluir qualquer lançamento sem data final. Ou seja, poderá lançar um afastamento e não será necessário inserir a data final, pois entendemos que em alguns afastamentos a empresa não sabe quando o colaborador retornará às atividades. Para os afastamentos que são integrados pelo eContador, também serão integrados sem data final. 
+
+- `Assinatura digital [FM-170]` - Criado novo recurso de assinatura digital no Flit App. Agora será possível enviar o relatório de espelho de ponto para o aplicativo Flit App do colaborador e poderá ser assinado digitalmente por este. 
+Através da plataforma de gestão do Flit, na aba relatórios, clicando na opção relatório de ponto e em seguida acessando a opção exportar, será exibido uma outra opção que é: "enviar para o colaborador", com isso, o relatório de ponto será enviado para o aplicativo do funcionário. Também na aba de “relatório de ponto”, através do campo "histórico", será possível acompanhar se o relatório foi enviado, entregue, lido e até mesmo assinado pelo usuário. Vale ressaltar que a assinatura digital do Flit segue o padrão ICP-Brasil, portanto, é válido juridicamente.
+
+- `Importador de AFD [FM-2151]` - Implementado um novo recurso que permitirá importar o AFD de forma automática na plataforma de gestão do Flit. Para baixar o aplicativo, é necessário acessar a plataforma de gestão do Flit, entrar na aba cadastros, cadastros gerais e no final de tela no campo "Dispositivos (Flit Multi e Importador de AFD)". Ao clicar em cadastrar dispositivo, terá o campo “tipo de dispositivo” e ao informar a opção "Importar AFD", selecionar a empresa e informar uma descrição, ao adicionar o novo dispositivo será criado o terminal de importação e em seguida será possível baixar o aplicativo clicando no botão que será exibido. Para acessar o aplicativo baixado, basta inserir o CNPJ da empresa e o PIN gerado pelo sistema. Para conseguir realizar a importação automática, dentro do aplicativo também é necessário selecionar a pasta de rede onde o AFD será salvo pelo relógio de ponto.
+
+- `Integração eContador [FM-2357]` - Quando é realizada a integração com o eContador, terá a opção para que a foto seja atualizada de acordo com o cadastro no DP. Essa opção ficará disponível na plataforma de gestão do Flit na aba outros, integrações, integração Alterdata (eContador). 
+
+- `Usuários [FM-2274]` - Criado novo recurso no cadastro de usuários, para quando alterar a escala do colaborador, ser exibida uma tela onde será possível informar uma data para retroagir a jornada. e a partir da data informada a jornada do colaborador será atualizada. 
+
+- `Dashbord e relatórios [FM-2269]` - Criado um novo recurso que possibilita gerar relatórios e visualizar a empresa no dashboard utilizando como exibição a Razão Social ou nome fantasia. Essa configuração pode ser feita através da plataforma de gestão, aba outros, parâmetros gerais.  
+
+- `Consultar marcação no dispositivo (Flit multi) [FM-2266]` -  A partir de agora, o colaborador poderá consultar sua última marcação de ponto realizada no aplicativo Flit Multi. Para realizar esta consulta, a opção deve ser habilitada pelo gestor na plataforma de gestão em: cadastros gerais, cadastro de dispositivo (Flit Multi), aba parâmetros.  
+
+- `Relatórios - [FM-2169]` - Reformulamos a tela de relatórios. Agora, a aba relatórios é separada por cards, especificando o nome de cada relatório do sistema com um resumo de cada um.
+
+- `Empresa- [FM-1594]` - Foi criado um novo recurso, para quando o endereço da empresa não estiver informado, os gestores serão notificados que o endereço não foi preenchido ou é inválido. Isso se faz necessário, pois de acordo com a portaria 671, o endereço da empresa deve ser preenchido corretamente. 
+
+- `Exportação oficial [FM-1883]` - Na exportação dos arquivos AFD e AFD (Portaria 671), a partir de agora, será possível  exportar o arquivo com o filtro de  departamento e o dispositivo que foi realizada a marcação. 
+
+- `Exportar dados para folha de pagamento [FM-177]` - Criado um novo campo na exportação para folha de pagamento, a partir de agora será possível filtrar por departamento. 
+
+- `Jornada [FM-1315]` - Foi criado um novo campo para que a jornada possa ser criada com a ocorrência de falta ou falta BH (falta que desconta o banco de horas). Essa configuração pode ser feita na aba outros, parâmetros gerais, campo processamento de falta. Algumas empresas quando o funcionário falta, desejam que vá para o banco de horas e não que seja registrada como falta. Esta configuração faz isso de forma automática de acordo com o desejo de cada empresa.
+
+- `Jornada [FM-2114]` - Criado novo recurso no ajuste de jornadas, para sinalizar o gestor ao abrir determinada jornada que a marcação não está disponível ainda dentro desta, informando neste aviso que foi marcado o ponto mas que ainda não está sincronizado na jornada. Pode acontecer de demorar até 10 minutos para a marcação entrar na jornada, então desta forma com o aviso, os gestores não terão a sensação que o funcionário não marcou o ponto.
+
+### 🌟 Melhorias
+ 
+- `Trava do sistema [FM-2329]` - Melhoria interna, agora será possível realizar lançamentos, ajustes de banco de horas e importar AFD com até 60 dias retroativos. 
+ 
+- `Exportação Nasajon [FM -2396]`  - Na exportação para o sistema de folha de pagamento Nasajon, a partir de agora os valores serão separados por ponto e vírgula. 
+ 
+- `Relatórios [2384]` - Melhoria interna no relatório de folha de ponto. A partir de agora, ficará disponível no sistema apenas o novo relatório de folha de ponto, substituindo a folha de ponto antiga, trazendo maior flexibilidade e customizações de acordo com a necessidade de cada empresa.
+ 
+- `Exportar dados para folha de pagamento [FM-2294]` -  Melhoria interna na exportação para folha de pagamento, não será considerada a jornada que foi criada depois da data de desligamento. Inserindo a data de desligamento, a jornada será desconsiderada para exportação. 
+ 
+- `Usuários [FM-2286]` - Criado uma proteção no sistema para quando houver solicitação feita pelo colaborador, o gestor não consiga excluir o cadastro deste funcionário. 
+ 
+- `Exportação NetSpeed [FM-2173]` - Melhoria na exportação para o sistema de folha de pagamento NetSped, agora será habilitado apenas o campo dos eventos que podem ser exportados para esse sistema. 
+ 
+- `Auditoria - [FM-2157]` - A partir de agora, na auditoria vai ser exibido a alteração, inclusão e exclusão que for realizada na aba usuários, banco de horas. 
+ 
+- `Dispositivos (Flit multi) [FM-2154]` - Melhoria interna no cadastro de dispositivos, na aba parâmetros, no campo economia de bateria que será habilitado apenas quando a opção "Permitir marcar ponto com crachá (QR Code)" estiver marcada. 
+ 
+- `Escala - [FM-1882]` - Foi criado novo campo na escala, onde mostra a quantidade de horas trabalhadas por semana.
+ 
+- `Modelo exportação - [FM-2146]` - Reformulamos a tela de modelo de exportação folha de pagamento, para otimizar a tela dos eventos. 
+ 
+### 🔧 Correções
+ 
+- `Cadastro empresa [FM-2381]` - Ajuste interno no campo código externo no cadastro da empresa, para não ocorrer duplicidade no código informado. 
+ 
+- `Integração eContador [2368]` - Ajuste interno, para quando o colaborador for desligado e realizar a integração com o eContador, no Flit vai mudar o status para desligado apenas no dia do desligamento. 
+ 
+- `Jornadas [FM-2283]` - Ajuste interno na jornada para que ao ser criada com a ocorrência de férias, estas sejam verificadas automaticamente. 
+ 
+- `Exportar dados para folha de pagamento [FM-2263]` - Ajuste interno para quando o campo de tipos de eventos estiver com algum evento marcado, nos arquivos gerados serão considerados apenas os eventos  marcados no filtro. 
+ 
+- `Jornadas [FM-2255]` - Ajuste interno na configuração automática de jornadas, para que a jornada seja confirmada de acordo com a configuração feita na aba outros, parâmetros gerais, confirmação automática de jornadas. 
+
+- `Solicitações [FM-2041]` - Ajuste interno na solicitação, para quando o gestor aceitar a solicitação feita pelo usuário, a jornada seja verificada automaticamente. 
+ 
+- `Escala [FM-1732]` - Ajuste interno na escala, realizando uma alteração no cadastro da escala para a jornada ser  atualizada retroativamente, levando a ocorrência correta. 
+ 
+- `Relatório de Saldo [FM-2007]` - Ajuste interno no relatório de saldo, para que dentro do relatório a data do período filtrado seja levada corretamente. 
+
+- `Usuários [FM-1741]` - Ajuste interno no saldo de banco de horas no cadastro do usuário, para quando o colaborador for desligado o saldo de banco de horas considere a última jornada no dia da demissão. 
+ 
+- `Usuário [FM-2048]` - Ajuste interno no cadastro do usuários, para que seja possível incluir uma data retroativa no cadastro do usuário mesmo com a opção de "cargo de confiança" marcada. 
+
 ---
 
-## Nome do App v4.10.0 (31/08/2023)
+## Flit Web Gestor v4.10.0 (31/08/2023)
  
 ### 🚀 Novo
  
