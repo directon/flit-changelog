@@ -23,7 +23,7 @@ Para gerar este relatório, basta acessar o menu lateral e em seguida relatório
 
 - `Integração eContador [FM-2457]` - A partir de agora, ao integrar um afastamento vindo do eContador (plataforma que integra o DP Alterdata com Flit), vai trazer no campo ocorrência  a descrição do afastamento que esta no departamento pessoal. 
  
-- `Integração eContador [FM-2541]` -Melhoria na integração com eContador (plataforma que integra o DP Alterdata com Flit). Agora, quando houver exclusão do cadastro do funcionário no DP não será excluído do Flit. Para excluir o cadastro do Flit definitivamente terá que realizar o procedimento manualmente no cadastro do usuário.
+- `Integração eContador [FM-2541]` - Melhoria na integração com eContador (plataforma que integra o DP Alterdata com Flit). Agora, quando houver exclusão do cadastro do funcionário no DP não será excluído do Flit. Para excluir o cadastro do Flit definitivamente terá que realizar o procedimento manualmente no cadastro do usuário.
  
 ### 🔧 Correções
  
