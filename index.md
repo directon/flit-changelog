@@ -1,5 +1,40 @@
 # Novidades da versão
 
+## Flit Web Gestor v4.11.1 (21/02/2024)
+ 
+### 🚀 Novo
+ 
+- `Relatório de absenteísmo [FM-2340]` - Novo relatório de absenteísmo. Neste relatório a empresa poderá verificar se o funcionário trabalhou a quantidade de horas que deveria, sendo assim o absenteísmo leva os valores que ele deixou de fazer, seja por falta ou atraso.
+Para gerar este relatório, basta acessar o menu lateral e em seguida relatório. Para efetuar uma exportação, pode-se realizar o filtro por empresa, departamento, cargo ou por usuário. Sendo possível gerar o relatório simples e detalhado (detalhado por dia). Ao salvar em PDF no formato detalhado, será separado dia a dia para sua análise.
+ 
+- `Cadastro da empresa [FM-2160]` - Criado novo recurso nas configurações do cadastro de empresas, para que ao alterar a informação no campo de tolerância e ao salvar, será apresentado uma mensagem perguntando se deseja retroagir esse ajuste, ou seja, para ajustar jornadas que já ocorreram. Ao selecionar uma data, todas as jornadas para frente serão afetadas com a nova tolerância, refazendo assim todos os cálculos das jornadas com base nesta nova informação. Se não deseja afetar jornadas anteriores, basta pressionar o ok sem selecionar a data de aplicação.
+
+- `Exportação  [FM-2455]` -  Criado exportação de ocorrências para os sistemas de folha de pagamento "Fortes Pessoal"  através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados.
+
+### 🌟 Melhorias
+ 
+- `Exportar dados [FM-1735]` - Melhoria na exportação para os sistemas de departamento pessoal. Foi criado o evento "Horas extras na folga". No menu lateral em frequência, exportar dados, acessando o campo modelo poderá editar o modelo de exportação onde é possível configurar incluindo este novo evento. 
+ 
+- `Relatório de Saldos [FM-2292]` - Melhoria no relatório de saldos, foi incluído no relatório uma nova coluna chamada "Horas interjornadas".
+
+- `Realtório de ponto [FM-2342]` - Melhoria interna no relatório de ponto, para que seja possível realizar o filtro selecionando mais de um departamento e cargo para a exportação.
+
+- `Jornada [FM-2530]` - Melhoria interna na aba de jornadas, para quando houver alteração na escala do colaborador,  a jornada que está com o status de pendente não fique como incompleta e sim permaneça com o status anterior. 
+
+- `Integração eContador [FM-2457]` - A partir de agora, ao integrar um afastamento vindo do eContador (plataforma que integra o DP Alterdata com Flit), vai trazer no campo ocorrência  a descrição do afastamento que esta no departamento pessoal. 
+ 
+- `Integração eContador [FM-2541]` -Melhoria na integração com eContador (plataforma que integra o DP Alterdata com Flit). Agora, quando houver exclusão do cadastro do funcionário no DP não será excluído do Flit. Para excluir o cadastro do Flit definitivamente terá que realizar o procedimento manualmente no cadastro do usuário.
+ 
+### 🔧 Correções
+ 
+- `Integração eContador [FM-2130]` - Ajuste interno, agora quando a empresa realizar integração com o eContador (plataforma que integra o DP Alterdata com Flit), o campo da abertura da frequência vai permanecer o mesmo, de acordo com que foi informado no momento do cadastro da empresa. 
+ 
+- `Jornada [FM-2514]` - Ajuste interno no lançamento, para quando houver lançamento de atestado ou abono integral em uma jornada que já tem marcação, este lançamento seja desconsiderado.
+
+- `Auditoria [FM-2448]` - Ajuste interno no filtro por hora na auditoria, para que posso filtrar de acordo com a horário informado.
+
+---
+
 ## Flit Web Gestor v4.11.0 (28/12/2023)
  
 ### 🚀 Novo
