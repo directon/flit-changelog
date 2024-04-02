@@ -1,5 +1,39 @@
 # Novidades da versão
 
+## Flit Web Gestor v4.12.0 (02/04/2024)
+ 
+### 🚀 Novo
+
+- `Cadastro de dispositivos [FM-2451]` - Novo recurso de perímetro, possibilitando a inclusão do perímetro para o aplicativo Flit Multi. Para ativar esse recurso, basta acessar o Flit Gestor, no menu lateral através da aba cadastro, acessar cadastros gerais e em seguida no cadastro do dispositivo a opção "Utilizar endereço definido no GPS do dispositivo" tem que estar marcada, para conseguir vincular o perímetro no dispositivo. Quando o perímetro for vinculado, será possível marcar o ponto somente se o dispositivo estiver no endereço informado no perímetro.
+- `Escala [FM-2278]` - Foi criado um novo recurso na escala. A partir de agora será possível vincular departamento a escala. Acessando o menu lateral, através da aba cadastro, escala, acessando o cadastro da escala, foi criado a aba departamento. Quando o departamento é vinculado a escala, ao realizar o cadastro do colaborador e informar o departamento no campo escala mostrará apenas a escala que tem o departamento vinculado.
+- `Escala [FM-2376]` - Criado novo recurso na aba escala, para quando  estiver configurada com marcação pré-assinalada e o colaborador trabalhar no feriado, levar na jornada realizada a marcação pré-assinalada automaticamente. 
+- `Usuários [FM-2279]` - Novo recurso no cadastro do usuário. Agora, será possível configurar a hora noturna no cadastro do usuário. Basta acessar o menu lateral, aba cadastros, usuários, acessando a aba parâmetros, terá a opção para configurar a hora noturna. Com a hora noturna configurada no cadastro do usuário, será desconsiderado a configuração feita em parâmetros gerais, sendo considerado para jornada a hora noturna que está no cadastro do usuário, e quando não houver configuração no cadastro do usuário será considerado para jornada a hora noturna que está na aba parâmetros gerais.
+- `Feriado [FM-1186]` - Novo recurso na aba feriados, agora é possível vincular no cadastro do feriado os departamentos. Basta acessar o menu lateral, em cadastros, feriados, vinculando o departamento, será considerado feriado somente para os departamentos vinculados.
+- `Ajustes solicitados [FM-2137]` - Criado um novo recurso possibilitando que o parecer do gestor no momento em que aprova uma solicitação fique disponível na jornada do colaborador. Para ativar essa opção, basta acessar o menu lateral aba frequência, ajustes solicitados, clicando em configurar terá a opção "Junte o parecer do gestor à justificativa da jornada". Habilitando essa opção, o parecer dado na solicitação irá para a jornada. 
+- `Exportar dados para folha de pagamento [FM-1880]` - Incluído o campo hora extra intrajornada na exportação para o sistema de folha de pagamento, onde são levadas as horas extras feitas na intrajornada, mesmo quando o regime de compensação for banco de horas.
+- `Parâmetros gerais [FM-2118]` - Foi criado um novo campo na tela de parâmetros gerais. A partir de agora, terá a opção "Confirmar jornada com falta". Acessando o menu lateral, aba outros, parâmetros gerais, no campo tratamento automático de jornada foi incluído a opção "Confirmar jornadas com falta". Marcando essa opção, todas as jornadas em que a ocorrência estiver como "Falta" ou "Falta BH" serão confirmadas.
+- `Relatório [FM-2624]` - Novo campo no relatório de ponto. A partir de agora, ficará disponível para incluir o "Total de horas noturnas". Para incluir esse totalizador no relatório de ponto, basta acessar o menu lateral, relatórios, relatórios de ponto, selecionando o modelo do relatório, é possível editar o modelo e incluir o totalizador. Será levado para folha de ponto o total de horas noturnas, somando as horas normais e extras realizadas. 
+
+### 🌟 Melhorias
+- `Auditoria [FM-2465]` - A partir de agora, na auditoria vai ser exibido a alteração, inclusão e exclusão que for realizada na aba feriados.
+- `Auditoria [FM-2242]` - A partir de agora, na auditoria vai ser exibido a alteração, inclusão e exclusão que for realizada na aba escalas.
+- `Relatório [FM-2084]` - Melhoria no relatório de saldos. A partir de agora, ao gerar o relatório de saldos simplificado, terá o cabeçalho com o nome e documento da empresa.
+- `Relatório [FM-1999]` - Melhoria no relatório de saldos acumulados, para quando for gerado, levar o nome completo do colaborador.
+- `Relatório [FM-2400]` - Melhoria no relatório de ponto, para que a linha de assinatura seja maior.
+- `Exportar dados para folha de pagamento [FM-2441]` - A partir de agora, na exportação para folha de pagamento será levado o PIS, nome e código externo atualizado. Com base na informação que está no cadastro do colaborador.
+- `Exportar dados para folha de pagamento [FM-2640]` - Melhoria na exportação para folha de pagamento. A partir de agora, quando os eventos de Faltas e Atrasos estiverem configurados com o mesmo código, no arquivo gerado os valores serão somados quando a configuração do modelo de exportação estiver com faltas em minutos ou horas. 
+- `Ajustes solicitados [FM-2604]` - Melhoria no ajuste solicitado, a partir de agora será possível realizar uma solicitação com mais de 30 dias retroativos. 
+
+### 🔧 Correções 
+- `Escala [FM-1696]` - Ajuste interno, para que na jornada considere a ocorrência customizada, criada pelo gestor e que foi configurada na escala.
+- `Integração eContador [FM-1857]` - Ajuste interno na integração eContador (plataforma que integra o DP Alterdata com Flit), agora será apresentado um aviso quando o e-mail que está sendo integrado já está vinculado a outro funcionário.
+- `Lançamentos [FM-2513]` - Ajuste interno, para que leve corretamente o  lançamento em contas onde o tratamento de jornada não é feito no Flit Gestor.
+- `Jornada [FM-2135]` - Ajuste interno na jornada, para quando a jornada tem marcação e é feito um lançamento simplificado a marcação deve ficar na ordenação correta.
+- `Jornada [FM-2336]` - Ajuste interno na jornada, para quando alterar a escala marcando a opção de marcação pré-assinalada e retroagindo a jornada, ser criado na jornada realizada a marcação pré-assinalada.
+- `Jornada [FM-2612]` - Ajuste interno na jornada, para quando alterar a escala marcando a opção de marcação pré-assinalada, retroagir a jornada corretamente, criando na jornada realizada a marcação pré-assinalada. 
+
+---
+
 ## Flit Web Gestor v4.11.1 (21/02/2024)
  
 ### 🚀 Novo
