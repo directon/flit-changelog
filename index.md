@@ -1,4 +1,94 @@
 # Novidades da versão
+## Flit Web Gestor v4.13.0 (16/07/2024)
+ 
+### 🚀 Novo
+ 
+- `Jornada [FM-304]` - Criado um novo recurso que possibilita que tenha atraso e hora extra na mesma jornada. Agora, será possível configurar para que a hora extra realizada na jornada diária seja calculada separadamente do atraso. Para habilitar esta opção, basta acessar o menu lateral, aba “Outros”, “Parâmetros Gerais” e a opção ficará disponível apenas quando a configuração da frequência estiver como "Híbrido" ou "Hora extra". Além disso, será possível selecionar no campo "Abater atraso da hora extra", a opção: "Abater atraso da jornada diária", onde o colaborador  poderá marcar o atraso e compensar na mesma jornada, realizando hora extra. Assim, o atraso não será considerado na jornada. Marcando a opção "Não abater atraso", o colaborador terá o atraso, podendo realizar hora extra que será considerada para jornada e para o relatório de ponto esta hora extra realizada, bem como o atraso. 
+
+- `Jornada [FM-2323]` - Foi adicionada uma configuração no sistema para considerar toda a jornada de trabalho como noturna, caso ela se inicie no período noturno. Por exemplo, se a jornada do funcionário começar às 4h da manhã e terminar às 20h, todas as horas trabalhadas serão consideradas noturnas, mesmo que, na realidade, apenas uma hora tenha sido noturna (por exemplo, das 4h às 5h). Esta configuração oferece maior flexibilidade para atender às necessidades específicas das empresas que precisam configurar este tipo de jornada.
+
+- `Dados da conta [FM-2782]` - Foi criado um novo campo na área de dados da conta. A partir de agora, está disponível o campo “Código cliente CRM”. 
+
+- `Exportação para folha de pagamento [FM-190]` - Com o novo recurso inserido na aba “Exportação”, será possível realizar a integração dos eventos da folha de pagamento através do eContador (plataforma que integra o DP Alterdata com Flit). Basta acessar o menu lateral, aba ‘Frequência’, ‘Exportar dados’. Para modelos de exportação dos sistemas Alterdata e Prosoft, ficará disponível o campo ‘Formato de exportação’, onde será possível escolher a opção ‘eContador’ para que os eventos sejam exportados automaticamente, sem a necessidade de gerar o arquivo TXT.  Apenas contas que estão configuradas  para realizar integração conseguirão realizar a exportação via eContador. Para isso, acesse o menu lateral, aba ‘Outros’, ‘Integrações’, clique em ‘Integração eContador (Alterdata/Prosoft)’ para efetivar a integração com o eContador. 
+
+- `Banco de horas [FM-421]` - Implementada a funcionalidade que permite configurar percentuais de banco de horas diferenciados para dias de semana, sábados, domingos e feriados. Se o usuário deixar o campo em branco ou com valor zerado, serão levadas para a jornada as horas que o funcionário realizou, sem acréscimos. Quando for informado o valor de, por exemplo, 50%, será levada para jornada a quantidade de horas feitas, mais o acréscimo de 50% sobre a hora a mais realizada. Para realizar essa configuração, basta acessar o menu lateral, aba ‘Cadastros’, ‘Cadastros gerais’, clicar no cadastro da empresa, aba ‘Banco de horas’. Esta opção ficará disponível apenas quando a configuração da frequência estiver como ‘Banco de horas’ ou como ‘Híbrido’ nos parâmetros gerais. 
+
+- `Usuários [FM-2825]` - O novo recurso implementado no cadastro de usuários, a aba de benefício, permite informar se o colaborador tem benefícios como vale-alimentação, vale-refeição e vale-transporte. Para realizar a configuração, basta acessar o menu lateral, aba ‘Cadastros’, ‘Usuários’. Ao abrir o cadastro de um colaborador, clique na aba ‘Benefícios’.
+ 
+- `Integração eContador [FM-2684]` - O novo recurso na integração eContador (plataforma que integra o DP Alterdata com Flit), permite a importação com o campo a matrícula (pin) preenchido, levando com este campo o código do funcionário que está no cadastro do DP. Para os colaboradores que já têm o campo informado no Flit Gestor, não irá mudar ou atualizar para o que está no DP. 
+
+- `Integração eContador [FM-2858]` - A partir de agora, será possível integrar o  eContador com o sistema Prosoft, assim como já integra com a Alterdata.  
+
+### 🌟 Melhorias
+ 
+- `Exportação para folha de pagamento [FM-985]` - A partir de agora, é possível exportar ‘folgas e feriados em dias’, melhorando a integração com os sistemas ‘Alterdata, Domínio e Prosoft’. 
+ 
+- `Exportação para folha de pagamento [FM-2847]` - Foi implementada melhoria na exportação para folha de pagamento, para que, quando for feita a geração do MOV.DP, seja levado o código externo do colaborador no lugar do PIS e o código externo da empresa ao no lugar do CNPJ. Quando os campos do código externo estiverem em branco no sistema, será levado para o MOV.DP o PIS do colaborador e o CNPJ da empresa. Para informar o código externo no cadastro da empresa, basta acessar o menu lateral, aba ‘Cadastros’, ‘Cadastros gerais’. Clique no cadastro da empresa, aba ‘Parâmetros’. Para informar o código externo no cadastro do usuário, basta acessar o menu lateral, aba ‘Cadastros’, ‘Usuários’. Clique no usuário, aba ‘Parâmetros’. 
+ 
+- `Perímetros [FM-2026]` - A partir de agora será  possível buscar o endereço do perímetro também por CEP, facilitando a busca de endereços.
+
+- `Usuários [FM-2843]` - Realizada melhoria no cadastro de usuário e, agora, o campo PIS deixou de ser obrigatório.
+ 
+- `Usuários [FM-2621]` - A partir de agora, quando a opção de ‘Cargo de confiança’ estiver marcada, será necessário vincular uma escala para este usuário. 
+
+- `Usuários [FM-2724]` - Nesta nova versão, será possível filtrar o nome do colaborador, mesmo que sem o acento. 
+ 
+- `Relatório de ponto [FM-2720]` - Melhoria interna no relatório de ponto para que a descrição do calendário esteja correta. 
+
+- `Relatório de ponto [FM-2344]` - Realizada melhoria no relatório de ponto para que seja possível ver a legenda da jornada verificada (verde), pendente (amarelo), incompleta (vermelho). Para ativar esse recurso, basta editar o modelo do relatório de ponto marcando a opção “Exibir legenda do status das jornadas”. 
+
+- `Relatório de ponto [FM-2615]` - Com a melhoria no relatório de ponto, fica permitido marcar as opções "Exibir aviso de aniversariante" ou "Exibir aviso de aniversário de admissão" na configuração do modelo de exportação, que será levado corretamente para o relatório de ponto. 
+ 
+- `Integração eContador [FM-2123]` - A partir de agora, será possível configurar o parâmetro do usuário para quando for importar novos cadastros do eContador (plataforma que integra o DP Alterdata com Flit) para o Flit Gestor. Para marcar as opções, basta acessar o menu lateral, aba outros, integrações, integração eContador (Alterdata/Prosoft), clicar na opção “Parâmetros do usuário” essa configuração será considerada para todos os novos colaboradores.  
+
+- `Jornadas [FM-2776]` - Realizada melhoria interna nos lançamentos de afastamento de férias para que, quando na jornada estiver com a ocorrência de férias, mesmo quando for feriado, a ocorrência de férias permaneça na jornada. 
+
+- `Dashboard [FM-2711]` - Melhoria no dashboard para que os gráficos de banco de horas e horas extras sejam exibidos de acordo com o regime de compensação da conta.  
+
+- `Relatório de absenteísmo [FM-2746]` - A partir de agora, será levado no relatório de absenteísmo a coluna de empresa.  
+
+- `Relatório de absenteísmo [FM-2831]` - Com a nova melhoria no ‘Relatório de Absenteísmo', constará no relatório se o usuário tem vale-alimentação, vale-refeição e vale-transporte. Para marcar um desses benefícios para o usuário, basta acessar o menu lateral, aba ‘Cadastros’, ‘Usuários’ e clicar no usuário, na aba ‘Benefícios’. 
+ 
+- `Ajustes solicitados [FM-2779]` - Foi criada opção para que o usuário possa remover uma marcação existente na jornada. Essa solicitação pode ser feita através do Flit App pelo colaborador, o gestor poderá aprovar ou recusar a solicitação no Flit Gestor.  
+
+- `Jornada [FM-2850]` - Com a nova melhoria, quando o gestor confirmar uma jornada, no histórico será exibido qual foi o gestor que confirmou a jornada do colaborador.  
+
+- `Jornada [FM-2815]` - Melhoria na jornada para que quando o colaborador realizar minutos extras ou faltantes que estejam dentro da tolerância, no campo ‘Total de horas trabalhadas’ será levada a quantidade de horas esperada de acordo com a escala. 
+
+
+### 🔧 Correções
+ 
+- `Perímetros [FM-2507]` - Ajuste interno na aba ‘Perímetros’ para que quando for associado um perímetro, sejam mostrados na listagem apenas os colaboradores que estão ativos.  
+
+- `Perímetros [FM-2870]` - Ajuste realizado para que o perímetro seja salvo apenas quando for destacado no mapa, delimitando onde será possível marcar o ponto.
+
+- `Relatório de usuários [FM-2161]` - Realizado ajuste interno no relatório de usuários para levar o status esperado do colaborador.  
+
+- `Escala [FM-2537]` - Ajuste realizado para que não considere os colaboradores demitidos na exclusão da escala. 
+
+- `Integração eContador [FM-2558]` - Ajuste interno na integração com o eContador (plataforma que integra o DP Alterdata com Flit). Agora, a opção de ‘Adicionar ou remover empresas’ será habilitada apenas quando uma chave de integração válida estiver informada. 
+
+- `Integração eContador [FM-2551]` - Realizado ajuste para que quando o CNPJ da empresa estiver duplicado no eContador (plataforma que integra o DP Alterdata com Flit), seja possível selecionar quais dos cadastros serão vinculados ao Flit Gestor. 
+
+- `Integração eContador [FM-2808]` - Ajuste interno para que alteração e exclusão de afastamento seja integrado corretamente do eContador para o Flit Gestor. 
+
+- `Auditoria [FM-2715]` - Executado ajuste interno para que a paginação da aba ‘Auditoria’ funcione corretamente. 
+
+- `Relatório de ponto [FM-2659]` - Ajuste interno para que seja levado, no relatório de ponto, o aniversário de admissão no período correto em que o relatório for gerado. 
+
+- `Integração eContador [FM-2856]` - Realizado ajuste para que quando o gestor estiver com o e-mail preenchido e realizar a integração com o eContador, o e-mail não seja removido após a integração. 
+
+- `Exportação AFD Portaria 671 [FM-2892]` - Ajuste interno para que se o CPF do colaborador não estiver informado na marcação, seja levado para o arquivo o CPF que está informado no cadastro.
+
+- `Relatório de saldos [FM-2764]`- Feito ajuste interno para que o relatório de saldos seja gerado corretamente, mesmo quando for gerado para muitos colaboradores. 
+
+- `Empresas [FM-2889]` - Ajuste interno no cadastro da empresa, para que seja possível editar o endereço e salvar a alteração. 
+
+- `Parâmetros gerais [FM-1002]` - Ajuste na descrição da ocorrência de "Falta BH" que foi renomeado para ‘Abatimento Banco de Horas’.
+
+- `Lançamentos [FM-2830]` - Ajuste interno para que quando os colaboradores retornarem de férias, o acesso no sistema seja feito como esperado.
+
+---
 
 ## Flit Web Gestor v4.12.0 (02/04/2024)
  
