@@ -3,9 +3,7 @@
  
 ### 🚀 Novo
  
-- `Jornada [FM-304]` - Criado um novo recurso que possibilita que tenha atraso e hora extra na mesma jornada. Agora, será possível configurar para que a hora extra realizada na jornada diária seja calculada separadamente do atraso. Para habilitar esta opção, basta acessar o menu lateral, aba “Outros”, “Parâmetros Gerais” e a opção ficará disponível apenas quando a configuração da frequência estiver como "Híbrido" ou "Hora extra". Além disso, será possível selecionar no campo "Abater atraso da hora extra", a opção: "Abater atraso da jornada diária", onde o colaborador  poderá marcar o atraso e compensar na mesma jornada, realizando hora extra. Assim, o atraso não será considerado na jornada. Marcando a opção "Não abater atraso", o colaborador terá o atraso, podendo realizar hora extra que será considerada para jornada e para o relatório de ponto esta hora extra realizada, bem como o atraso. 
-
-- `Jornada [FM-2323]` - Foi adicionada uma configuração no sistema para considerar toda a jornada de trabalho como noturna, caso ela se inicie no período noturno. Por exemplo, se a jornada do funcionário começar às 4h da manhã e terminar às 20h, todas as horas trabalhadas serão consideradas noturnas, mesmo que, na realidade, apenas uma hora tenha sido noturna (por exemplo, das 4h às 5h). Esta configuração oferece maior flexibilidade para atender às necessidades específicas das empresas que precisam configurar este tipo de jornada.
+- `Jornada [FM-304]` - Criado um novo recurso que possibilita que tenha atraso e hora extra na mesma jornada. Agora, será possível configurar para que a hora extra realizada na jornada diária seja calculada separadamente do atraso. Para habilitar esta opção, basta acessar o menu lateral, aba “Outros”, “Parâmetros Gerais” e a opção ficará disponível apenas quando a configuração da frequência estiver como "Híbrido" ou "Hora extra". Além disso, será possível selecionar no campo "Abater atraso da hora extra", a opção: "Abater atraso da jornada diária", onde o colaborador  poderá marcar o atraso e compensar na mesma jornada, realizando hora extra. Assim, o atraso não será considerado na jornada. Marcando a opção "Não abater atraso", o colaborador terá o atraso, podendo realizar hora extra que será considerada para jornada e para o relatório de ponto esta hora extra realizada, bem como o atraso.
 
 - `Dados da conta [FM-2782]` - Foi criado um novo campo na área de dados da conta. A partir de agora, está disponível o campo “Código cliente CRM”. 
 
@@ -51,9 +49,7 @@
  
 - `Ajustes solicitados [FM-2779]` - Foi criada opção para que o usuário possa remover uma marcação existente na jornada. Essa solicitação pode ser feita através do Flit App pelo colaborador, o gestor poderá aprovar ou recusar a solicitação no Flit Gestor.  
 
-- `Jornada [FM-2850]` - Com a nova melhoria, quando o gestor confirmar uma jornada, no histórico será exibido qual foi o gestor que confirmou a jornada do colaborador.  
-
-- `Jornada [FM-2815]` - Melhoria na jornada para que quando o colaborador realizar minutos extras ou faltantes que estejam dentro da tolerância, no campo ‘Total de horas trabalhadas’ será levada a quantidade de horas esperada de acordo com a escala. 
+- `Jornada [FM-2850]` - Com a nova melhoria, quando o gestor confirmar uma jornada, no histórico será exibido qual foi o gestor que confirmou a jornada do colaborador.
 
 
 ### 🔧 Correções
@@ -70,8 +66,6 @@
 
 - `Integração eContador [FM-2551]` - Realizado ajuste para que quando o CNPJ da empresa estiver duplicado no eContador (plataforma que integra o DP Alterdata com Flit), seja possível selecionar quais dos cadastros serão vinculados ao Flit Gestor. 
 
-- `Integração eContador [FM-2808]` - Ajuste interno para que alteração e exclusão de afastamento seja integrado corretamente do eContador para o Flit Gestor. 
-
 - `Auditoria [FM-2715]` - Executado ajuste interno para que a paginação da aba ‘Auditoria’ funcione corretamente. 
 
 - `Relatório de ponto [FM-2659]` - Ajuste interno para que seja levado, no relatório de ponto, o aniversário de admissão no período correto em que o relatório for gerado. 
@@ -80,13 +74,7 @@
 
 - `Exportação AFD Portaria 671 [FM-2892]` - Ajuste interno para que se o CPF do colaborador não estiver informado na marcação, seja levado para o arquivo o CPF que está informado no cadastro.
 
-- `Relatório de saldos [FM-2764]`- Feito ajuste interno para que o relatório de saldos seja gerado corretamente, mesmo quando for gerado para muitos colaboradores. 
-
-- `Empresas [FM-2889]` - Ajuste interno no cadastro da empresa, para que seja possível editar o endereço e salvar a alteração. 
-
-- `Parâmetros gerais [FM-1002]` - Ajuste na descrição da ocorrência de "Falta BH" que foi renomeado para ‘Abatimento Banco de Horas’.
-
-- `Lançamentos [FM-2830]` - Ajuste interno para que quando os colaboradores retornarem de férias, o acesso no sistema seja feito como esperado.
+- `Empresas [FM-2889]` - Ajuste interno no cadastro da empresa, para que seja possível editar o endereço e salvar a alteração.
 
 ---
 
