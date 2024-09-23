@@ -1,4 +1,36 @@
 # Novidades da versão
+## Flit Web Gestor v4.14.0 (23/09/2024)
+ 
+### 🚀 Novo
+
+- `Exportação para folha de pagamento [FM-2745]` - Criado o recurso de exportação de eventos para os sistemas de folha de pagamento "Totvs RM" através de arquivo TXT. Consulte no menu lateral em “Frequência”, “Exportar Dados”.
+
+### 🌟 Melhorias 
+
+- `Exportação para folha de pagamento [FM-2958]` - Realizada melhoria visual na tela de exportação para folha de pagamento.
+
+- `Relatório de folha de ponto [FM-2614]` -  A partir de agora, é possível incluir, no cabeçalho do relatório de ponto, o departamento do colaborador. Para fazer essa inclusão, basta acessar o menu lateral, “Relatórios”, “Folha de ponto (Modelo Novo)". Clicando para editar o modelo, é possível incluir o departamento no cabeçalho.
+
+### 🔧 Ajustes
+
+- `Cadastro da empresa [FM-2910]` - Foi realizado um ajuste interno para que seja possível incluir, editar e remover a logomarca do cadastro da empresa.
+
+- `Jornada [FM-2923]` - Realizado ajuste na jornada para que quando for o dia de abertura da frequência, o acumulado de hora extra fique com o valor correto independente do tipo de compensação da jornada.
+
+- `Lançamentos [FM-2830]` - Ajuste interno para que, quando o colaborador retornar de férias, ele consiga acessar o sistema corretamente.
+
+- `Parâmetros gerais [FM-2926]` - Ajuste interno para que todos os campos da aba “Parâmetros gerais” sejam levados para auditoria.
+
+- `Ajustes solicitados [FM-2947]` - Melhoria interna para que a ordenação da página funcione como esperado.
+
+- `Interno [FM-2950]` -  Melhoria interna para que, quando houver afastamento, o usuário não consiga acessar o Flit Gestor.
+
+- `Dashboard [FM-2953]` - Ajuste interno para que os valores de banco de horas e horas extras sejam levados corretamente para o banco de horas.
+
+- `Jornada [FM-2808]` - Melhoria interna para que quando a ocorrência de feriado for informada manualmente na jornada e houver faixa de horas extras vinculada à escala, os valores sejam levados corretamente para a faixa de hora extra.
+
+---
+
 ## Flit Web Gestor v4.13.0 (16/07/2024)
  
 ### 🚀 Novo
@@ -52,7 +84,7 @@
 - `Jornada [FM-2850]` - Com a nova melhoria, quando o gestor confirmar uma jornada, no histórico será exibido qual foi o gestor que confirmou a jornada do colaborador.
 
 
-### 🔧 Correções
+### 🔧 Ajustes
  
 - `Perímetros [FM-2507]` - Ajuste interno na aba ‘Perímetros’ para que quando for associado um perímetro, sejam mostrados na listagem apenas os colaboradores que estão ativos.  
 
@@ -117,7 +149,7 @@
 
 - `Ajustes solicitados [FM-2604]` - Melhoria no ajuste solicitado, a partir de agora será possível realizar uma solicitação com mais de 30 dias retroativos. 
 
-### 🔧 Correções 
+### 🔧 Ajustes 
 
 - `Escala [FM-1696]` - Ajuste interno, para que na jornada considere a ocorrência customizada, criada pelo gestor e que foi configurada na escala.
 
@@ -158,7 +190,7 @@ Para gerar este relatório, basta acessar o menu lateral e em seguida relatório
  
 - `Integração eContador [FM-2541]` - Melhoria na integração com eContador (plataforma que integra o DP Alterdata com Flit). Agora, quando houver exclusão do cadastro do funcionário no DP não será excluído do Flit. Para excluir o cadastro do Flit definitivamente terá que realizar o procedimento manualmente no cadastro do usuário.
  
-### 🔧 Correções
+### 🔧 Ajustes
  
 - `Integração eContador [FM-2130]` - Ajuste interno, agora quando a empresa realizar integração com o eContador (plataforma que integra o DP Alterdata com Flit), o campo da abertura da frequência vai permanecer o mesmo, de acordo com que foi informado no momento do cadastro da empresa. 
  
@@ -223,7 +255,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
  
 - `Modelo exportação - [FM-2146]` - Reformulamos a tela de modelo de exportação folha de pagamento, para otimizar a tela dos eventos. 
  
-### 🔧 Correções
+### 🔧 Ajustes
  
 - `Cadastro empresa [FM-2381]` - Ajuste interno no campo código externo no cadastro da empresa, para não ocorrer duplicidade no código informado. 
  
@@ -293,7 +325,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
  
 - `Ajustes solicitados [FM-2115]` - Ajuste para exibir a quantidade de dias quando houver solicitações de abono e atestado.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Lançamentos  [FM-1623]` - Ajuste interno no lançamento da ocorrência Falta BH, quando lançado abate valores do banco de horas do funcionário.
  
@@ -355,7 +387,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Integração e-contador [FM-1776]` - Melhoria na integração para quando acontecer uma transferência entre empresas, o banco de horas do usuário também migre para a nova empresa.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Banco de horas/Ajustar jornadas [FM-1856]` - Ajuste interno na tela de ajuste de jornadas, para exibir a quantidade de banco de horas total quando ultrapassar mais de 3 dígitos, exemplo: 150 Horas.
 
@@ -393,7 +425,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Integração [FM-1652]` - Incluído em acessos a opção para bloquear a tela de integração de um determinado gestor.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Política de privacidade [FM-1704]` - Ajuste interno na política de privacidade.
 
@@ -437,7 +469,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Importação de AFD [FM-1430]` - Ajuste interno na importação do AFD, em casos onde há usuários cadastrados com o mesmo PIS, um desligado e um ativo, para que respeite sempre o ativo.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Intervalo pré-assinalada [FM-1592]` - Ajuste interno na funcionalidade do intervalo pré-assinalado.
 
@@ -455,7 +487,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Listagem de marcações [FM-1496]` - Melhoria ao visualizar uma marcação que não possui uma localização definida na listagem de marcações, deixando mais claro que o endereço não foi definido no momento da marcação do ponto.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Folha de ponto [FM-1361]` - Ajuste interno para quando marcar o parâmetro "exibir legenda do tipo dos períodos" na folha de ponto, o sistema efetue uma busca automaticamente ao aplicar a configuração.
 
@@ -481,7 +513,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Exportação PROSOFT/NASAJON [FM-1408]` - Criado exportação de ocorrências para os sistemas de folha de pagamento PROSOFT e NASAJON através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Data de admissão [FM-1458]` - Ajuste interno no cadastro de usuários, para quando inserir data de admissão futura e depois ajuste para a data correta, o sistema altere normalmente para a nova informação inserida.
 
@@ -511,7 +543,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Cadastro de usuários [FM-1283]` - Criado novo recurso para que seja possível realizar alterações cadastrais do usuário de forma retroativa. Ou seja, aplicar uma alteração para jornadas passadas. Para isso clique nos (...) três pontos ao lado do salvar do cadastro de usuários e escolha a data para aplicar as alterações.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Integração Alterdata [FM-1270]` - Ajuste interno quando o feriado cair no domingo e o usuário fizer horas extras, essas horas extras serem levadas no arquivo de integração Alterdata como HE Feriado.
 
@@ -540,7 +572,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 - `Similaridade Mínima do Reconhecimento Facial [MUL-90]` - Agora é possível configurar a porcentagem da similaridade mínima do Reconhecimento Facial, onde se a similaridade da marcação for menor que o configurado, a marcação não será realizada.  
   A configuração é realizada pelo suporte.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Travamento ao realizar marcações consecutivas [MUL- 89]` - Ajuste interno para que não ocorra travamento ou fechamento do aplicativo, quando é realizada muitas marcações consecutivas.
 
@@ -560,7 +592,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Eventos Alterdata [FM-1194]` - Melhoria nas configurações de integração com a Alterdata, para exibir uma mensagem dizendo que a rubrica não pode ser duplicada.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Listagem de usuários [FM-1193]` - Ajuste interno no filtro para que consiga buscar por reconhecimento facial ativo/inativo.
 
@@ -580,7 +612,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Lançamento simplificado [FM-1112]` - Liberado a possibilidade de ajustar o lançamento mesmo que a data inicial seja superior a 30 dias.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Integração e-contador [FM-1142]` - Ajuste interno na exclusão do lançamento de férias, afastamento e outros quando chegar pelo econtador.
 
@@ -604,7 +636,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 ## Flit Web Manager 4.2.1 (13/07/2022)
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Ajuste de jornadas [FM-1050]` - Ajuste interno para voltar a confirmar as jornadas automaticamente de acordo com as configurações.
 
@@ -654,7 +686,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Cadastro de escalas [FM-770]` - Melhoria para que o gestor consiga alterar a escala e informar a partir de qual data deseja aplicar essa nova escala no funcionário.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Hora extra [FM-943]` - Ajuste interno para que as horas extras noturnas do ajustar jornadas apareça corretamente no resumo da jornada.
 
@@ -670,7 +702,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Melhoria na ressincronização das marcações [FA-168]` - Ajuste interno para ressincronizações das marcações off-line.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Gráfico de horas trabalhadas [FA-157]` - Foi otimizado o tempo do primeiro processamento do gráfico de horas.
 
@@ -702,7 +734,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Recuperação de acesso [FA-143]` - Melhoria para quando o usuário não lembrar o e-mail cadastrado, poderá recuperar a senha utilizando o CPF.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Gráfico de horas trabalhadas [FA-117]` - Ajuste interno na exibição das informações, para ficarem alinhadas.
 
@@ -716,7 +748,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 ## Flit Web 4.1.2 (19/04/2022)
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Proteção marcação sem foto [FW-10]` - Ajuste interno para permitir marcar o ponto sem foto, apenas se a opção "Fotografar colaborador ao marcar ponto no Flit Web" estiver desmarcada no cadastro de empresas da plataforma de gestão.
 
@@ -744,7 +776,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Listagem de marcações [FM-810]` - Agora a foto do colaborador se adapta de acordo com o tamanho da câmera na área de identificação da marcação e quando passa o mouse sobre fica possível expandir.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Parâmetros gerais [FM-844]` - Ajuste interno para quando utilizar o Flit apenas como marcação de ponto, as opções de parâmetros gerais sejam bloqueadas.
 
@@ -774,7 +806,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Envio de e-mails [FM-579]` - Melhoria interna no layout do envio de e-mail de marcações, recuperação de senha. O usuário também receberá um e-mail de ativação/recuperação assim que o gestor cadastrá-lo no manager.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Integração Alterdata [FM-619]` - Ajuste visual nos campos de integração com a Alterdata em parâmetros gerais.
 
@@ -796,7 +828,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Processamento de jornadas [FM-653]` - Ajuste interno no processamento de jornadas para ignorar as jornadas antigas que ficam em memória.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Status do usuário [FM-682]` - Quando o usuário estiver de **férias, afastado ou suspensão de contrato**, o status somente voltará para **ativo de forma automática** quando a data final for menor que a data atual.
 
@@ -812,7 +844,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
   ![mobile-previsao-saida](assets/images/mobile-previsao-saida.png)
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Status do usuário [FA-75]` - Agora quando o usuário estiver com um status de: Férias, afastamento ou suspensão de contrato configurado para uma data futura, ele conseguirá marcar o ponto, bloqueando a marcação só durante o período do afastamento.
 
@@ -820,7 +852,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 ## Flit Multi 1.2.1 (25/11/2021)
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Configuração - Câmera [MUL-22]` - Botão de voltar na configuração da câmera está mais visível.
 
@@ -846,7 +878,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Proteção para a exceção [FM-551]` - Caso o usuário tenha feito marcação por exceção alguma vez, o gestor não conseguirá excluir o cadastro do mesmo.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Criação de jornadas [FM-504]` - Antes, quando fazíamos a criação interna de jornadas em massa e o usuário possuía marcação de um dia para o outro, algumas jornadas não eram criadas e isso foi corrigido.
 
@@ -868,7 +900,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Banner topo [FM-432]` - Criado recurso para quando o cliente estiver inadimplente, exibir um banner em vermelho com um contador de dias que faltam para que o sistema seja bloqueado (prazo de 5 dias). Dessa forma não será bloqueado de imediato quando entrar em inadimplência.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Empresas x Jornadas [FM-445]` - Ajuste interno para não permitir a exclusão de empresas que possuem marcações, jornadas ou usuários.
 
@@ -914,7 +946,7 @@ Através da plataforma de gestão do Flit, na aba relatórios, clicando na opç�
 
 - `Cadastro de dispositivos [FM-363]` - Melhorias de UI e UX, a fonte do PIN foi melhorada para não confundir as letras minúsculas com maiúsculas, e também agora o CPF/CNPJ da empresa fica perto do PIN no modal de detalhes do dispositivo para facilitar a inserção de dados no formulário de login.
 
-### 🔧 Correções
+### 🔧 Ajustes
 
 - `Folha de ponto [FM-365]` - Períodos trabalhados consideravam o fuso do local do navegador, agora assim como no ajuste de jornadas consideram o fuso do período que está no servidor para exibir os horários.
 
