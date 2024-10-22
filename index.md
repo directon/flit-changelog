@@ -1,4 +1,47 @@
 # Novidades da versão
+
+## Flit Web Gestor v4.15.0 (23/10/2024)
+ 
+### 🚀 Novo
+
+- `Auditor.IA [FM-3094]` - Criado um novo recurso de autoria para o reconhecimento facial. Através desse recurso, o registro de ponto eletrônico recebeu uma camada extra de segurança utilizando a tecnologia de IA (Inteligência Artificial) que identifica com precisão as tentativas mais utilizadas para burlar o reconhecimento facial.  Com este recurso poderá analisar a foto da marcação e verificar se é uma foto autêntica ou não, se o colaborador tentar burlar a marcação a tentativa ficará registrada no sistema. O gestor poderá configurar se a marcação deve ser permitida ou bloqueada pelo sistema, em caso de suspeita de fraude no reconhecimento facial. Para adquirir este recurso basta clicar no menu lateral, acessando “Auditor.IA - Marcações” clicando em “Fale Conosco”.
+
+- `Exportação para folha de pagamento  [FM-3099]` - Criado exportação de ocorrências para o sistema de folha de pagamento IOB através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados, crie modelo de exportação selecionando o sistema IOB. 
+
+- `Exportação para folha de pagamento [FM-3066]` - Criado exportação de ocorrências para o sistema de folha de pagamento JB Folha através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados, crie modelo de exportação selecionando o sistema JB Folha.  
+
+- `Exportações para folha de pagamento [FM-3066]` - Criado exportação de ocorrências para o sistema de folha de pagamento SCI através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados, crie modelo de exportação selecionando o sistema SCI. 
+
+
+### 🌟 Melhorias 
+
+- `eContador [FM-3089]` - Realizada melhoria na transferência do colaborador entre empresas quando é feita a integração com o eContador (plataforma que integra o DP Alterdata com Flit). Agora, o saldo de banco de horas na jornada do dia do desligamento, será levado para o cadastro do colaborador na empresa nova.
+
+- `Listagem de marcações [FM-3046]` - A partir de agora, será possível filtrar pelo nome do dispositivo na listagem de marcação. Acessando o menu lateral em frequência, listagem de marcação. 
+
+- `Auditor.IA [FM-3033]` - Melhoria interna na tela do Auditor.IA, para que funcione de acordo com o perfil de acesso.
+
+- `Auditor.IA [FM-3032]` - Melhoria interna na tela do Auditor.IA. Agora será possível filtrar pelo nome do dispositivo. Acessando o menu lateral, Auditor.IA - Marcações.
+
+- `Relatório de ponto [FM-2761]` - Com a melhoria no relatório de ponto, agora será possível filtrar por todos os usuários, apenas os ativos ou desligados. Basta acessar o menu lateral em relatórios, Folha de ponto (Modelo Novo). 
+
+
+### 🔧 Ajustes
+
+- `Integração eContador [FM-3085]` - Ajuste interno na integração do eContador (plataforma que integra o DP Alterdata com o Flit). Para que a exportação dos dados para folha de pagamento ocorra como esperado. 
+
+- `Integração eContador [FM-3020]` - Realizada melhoria visual na tela da integração eContador. 
+
+- `Integração eContador [FM-3088]` - Ajuste no alerta de eventos não encontrados para enviar para o eContador.
+
+- `Relatório de saldos [FM-2764]` - Ajuste interno no relatório de saldos.  Para que o relatório seja gerado corretamente mesmo quando houver muitos colaboradores cadastrados. 
+
+- `Perímetros [FM-2127]` - Melhoria interna para que não seja possível excluir o perímetro que está vinculado a um colaborador.
+
+- `Importar marcações [FM-3119]` - Ajuste interno para importar arquivos AFD de empresas com CPF com zeros à esquerda no arquivo.
+
+---
+
 ## Flit Web Gestor v4.14.0 (23/09/2024)
  
 ### 🚀 Novo
