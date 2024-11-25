@@ -1,5 +1,46 @@
 # Novidades da versão
 
+## Flit Gestor v4.16.0 (25/11/2024)
+ 
+### 🚀 Novo
+ 
+- `Usuários [FM-3038]` - Criado um novo recurso no cadastro do usuário. Agora, ao informar o e-mail no cadastro de um colaborador o sistema exibirá automaticamente o e-mail de acesso e a senha gerada ao salvar o cadastro. O colaborador poderá redefinir a senha, se desejar, mas com a senha criada pelo sistema, já será possível acessar o aplicativo. Além disso, o gestor terá a opção de redefinir a senha do colaborador sempre que necessário.
+ 
+### 🌟 Melhorias
+
+- `Dashboard [FM-3161]` - Melhoria na tela do dashboard. Agora, ao aplicar um filtro, será exibido um ícone indicando que as informações ainda estão sendo carregadas. 
+ 
+- `Usuários [FM-3218]` - Com a melhoria na aba de usuários, a busca pelo nome do colaborador agora considera as informações preenchidas nos campos 'Nome' e 'Nome Completo'.  
+
+- `Relatório de ponto [FM-2873]` - Melhoria no relatório de ponto para ampliar o espaço destinado à assinatura da empresa e do colaborador. 
+
+- `Relatório de Saldos [FM-3016]` - Foi implementada melhoria no relatório de saldos, com a criação da coluna que exibe a quantidade de dias trabalhados na referência. 
+
+- `Relatório de absenteísmo [FM-3017]`- Foi implementada melhoria no relatório de absenteísmo, com a criação da coluna que exibe a quantidade de dias trabalhados na referência. 
+
+ 
+### 🔧 Correções
+
+- `Dashboard [FM-3050]` - Realizado ajuste no dashboard para garantir que o fuso horário correto seja considerado, mesmo quando diferente da escala do colaborador. 
+
+- `Usuários [FM-3171]` - Ajuste interno para impedir a reativação de um colaborador desligado quando a conta não tiver limite disponível para o cadastro de novos usuários. 
+
+- `Relatório de absenteísmo [FM-3145]` - Realizado ajuste interno no relatório de absenteísmo. Agora, ao ser exportado no formato XLSX, o nome do colaborador será inserido corretamente no arquivo. 
+
+- `Relatório de absenteísmo [FM-2895]`- Ajuste interno realizado na exportação do relatório de absenteísmo. A partir de agora, em contas com um grande número de colaboradores cadastrados, o relatório é exportado corretamente nos formatos PDF, XLSX e CSV.
+
+- `Relatórios [FM-2553]` - Ajuste interno na exportação dos relatórios, caso a descrição do arquivo exportado contenha somente caracteres especiais, ele será salvo com o nome padrão 'Arquivo' e no formato correto.
+
+- `Relatórios [FM-3164]` - Ajuste para que os relatórios sejam gerados como esperado. 
+
+- `Relatórios de Saldos/Absenteísmo [FM-3148]` - Ajuste no relatório de saldos e absenteísmo para que o campo 'Totais' seja exibido corretamente, mesmo quando houver quebra de página. 
+
+- `Auditoria [FM-3061]` - Ajuste interno implementado para garantir que a auditoria respeite as configurações definidas no perfil de acesso. 
+
+- `Auditoria [FM-3147]` - Ajuste interno na auditoria para que as descrições dos campos estejam corretas.
+ 
+---
+
 ## Flit Web Gestor v4.15.0 (23/10/2024)
  
 ### 🚀 Novo
