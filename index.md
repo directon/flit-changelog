@@ -1,6 +1,6 @@
 # Novidades da versão
 
-## Flit Gestor v4.16.0 (25/11/2024)
+## Flit Gestor v4.16.0 (27/11/2024)
  
 ### 🚀 Novo
  
