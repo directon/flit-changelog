@@ -1,5 +1,87 @@
 # Novidades da versão
 
+## Flit Gestor v4.17.1 (29/05/2025)
+
+### 🚀 Novo
+
+- `Cadastro de usuários [FM-3553]` - Novo recurso para marcações via WhatsApp. Se o cadastro do colaborador não estiver com o campo o celular preenchido, o sistema direciona automaticamente o gestor para a página onde essa informação precisa ser preenchida.
+
+- `Cadastro de empresas [FM-3725]` - Novo recurso para acesso ao aplicativo individual e autenticação por número de celular. Esse novo recurso possibilita ao colaborador que acesse o aplicativo utilizando o CPF e receba o código de autenticação de acesso através do WhatsApp. Para ativar o recurso, acesse a aba cadastros, cadastros gerais, empresas, selecione a empresa em questão, parâmetros e marque a opção "Habilitar login por CPF e verificação por número de celular (WhatsApp) no Flit.". Para funcionar, é necessário também que no cadastro do usuário tenha o celular informado.
+
+- `Exportação para folha de pagamento [FM-3006]` - Criado exportação para o sistema de folha de pagamento Contmatic, através de arquivo TXT. Consulte o menu lateral em frequência, exportar dados, exportar dados para folha de pagamento, crie o modelo selecionando o sistema Contmatic.
+
+- `Horas noturnas [FM-2323]` - Novo recurso que possibilita estender as horas noturnas até finalizar a jornada. Para ativar o recurso, acesse a aba outros parâmetros gerais, estender horas noturnas até a última marcação. O sistema usa como base as configurações das regras noturnas, que podem ser informadas nos parâmetros da conta e no cadastro do colaborador.
+
+- `Integração com a Control ID [FM-3553]` - Criado recurso de integração entre o Flit e o sistema de relógio de ponto Control ID. Para ativar a integração, acesse a aba outros, integrações, integração Control ID, informe seu login de acesso ao sistema Control ID e ative a integração.
+
+- `Jornadas [FM-2966]` - Criada nova opção de abatimento de horas extras "Escala prevista (Intervalos flexíveis)", para que o sistema não considere os intervalos para cálculo de atrasos e horas extras. Será possível habilitar essa opção pelos parâmetros da conta, e também diretamente na jornada.
+
+- `Relatório de ponto [FM-3443]` - Criado uma nova coluna no relatório de folha de ponto. Será possível incluir no relatório da folha de ponto a coluna "Horas extras interjornada". Basta acessar o menu lateral, aba relatórios, selecionar a folha de ponto e, para incluir a coluna, basta editar o seu modelo de relatório de ponto.
+
+- `Relatório de ponto [FM-491]` - Criado uma nova coluna no relatório de folha de ponto. Será possível incluir no relatório da folha de ponto a coluna "Horas noturnas totais". Basta acessar o menu lateral, aba relatórios, selecionar a folha de ponto e, para incluir a coluna, basta editar o seu modelo de relatório de ponto.
+
+### 🌟 Melhorias
+
+- `Ajuste de jornadas [FM-3668]` - Melhoria no aviso de marcações pendentes nas jornadas, por importação de AFD. Agora, o sistema demonstrará automaticamente um aviso nas jornadas relacionadas, informando haver marcações a serem processadas naquele dia. Esse aviso também indicará ao usuário o tempo estimado que a marcação pode levar para aparecer corretamente na jornada.
+
+- `Cadastro de usuários [FM-3783]` - Ajuste interno para que o sistema sempre converta e aceite as imagens em formatos, JPEG, PNG, WEBP e BMP, em JPG.
+
+- `Exportação para folha de pagamento [FM-2000]` - Ajuste interno na exportação para o sistema SCI. Ao selecionar o modelo de exportação da SCI é possível escolher qual sistema relacionado ao modelo deseja exportar, se é Visual Practice (modelo padrão que era utilizado anteriormente), Novo Visual ou Único.
+
+- `Importar marcações [FM-3427]` - Melhoria na tela ao importar marcações. Para quando realizar a importação de marcações e ocorrer de uma das marcações não serem importadas na plataforma do Flit Gestor, mostrar um aviso na tela onde será possível baixar um arquivo em formato TXT detalhado o motivo da importação não ter sido realizada. Basta acessar o menu lateral, aba frequência, importar marcações.
+
+- `Listagem de marcações [FM-3671]` - Melhoria interna no espaçamento da listagem de marcações, deixando as informações mais organizadas e fáceis de visualizar.
+
+- `Perímetros [FM-3400]` - Ajuste na aba de perímetros, para que ao cadastrar funcione corretamente.
+
+- `Relatório de saldos acumulados [FM-3473]` - Ajuste interno no relatório de saldos acumulados, para que ao exportar em formato de Excel, funcione corretamente.
+
+### 🔧 Correções
+
+- `Ajuste jornada [FM-3504]` - Ajuste interno na tela de ajuste jornada, para funcionar como esperado.
+
+- `Ajuste jornada [FM-2815]` - Correção no cálculo de horas normais, para considerar a tolerância no cálculo das horas trabalhadas.
+
+- `Ajuste jornada [FM-2280]` - Correção no cálculo de horas noturnas, para serem contabilizadas conforme esperado.
+
+- `Ajuste jornada [FM-3115]` - Correção no cálculo de horas noturnas, para quando houver redução da hora noturna, e o tipo de abatimento for "Escala prevista" ou "Escala prevista (intervalos flexíveis)" o sistema não considere a redução como atraso.
+
+- `Ajuste jornada [FM-2967]` - Ajuste interno na opção de abatimento "Escala prevista", para calcular as horas extras e atrasos conforme o esperado.
+
+- `Cadastro de usuários [FM-3410]` - Ajuste interno no cadastro de usuários. Quando a quantidade de usuários cadastrados estiver excedendo o pacote contratado, será possível incluir a data de desligamento no cadastro dos colaboradores.
+
+- `Cadastro de usuários [FM-3417]` - Ajuste interno no cadastro de usuários desligados, onde não será mais possível alterar a data de desligamento sem antes reativar o usuário.
+
+- `Cadastro de dispositivos [FM-3500]` - Ajuste interno no cadastro de dispositivos, para funcionar conforme o esperado.
+
+- `Dashboard [FM-3434]` - Ajuste interno na tela do dashboard, para que o status do dispositivo seja levado corretamente.
+
+- `Exportação para folha de pagamento [FM-3480]` - Ajuste interno na criação de modelos para exportação para folha de pagamento, para não haver duplicidade nos modelos criados.
+
+- `Horas noturnas [FM-2643]` - Ajuste interno para o sistema considerar a tolerância para o cálculo das horas noturnas normais.
+
+- `Importador de AFD [FM-3440]` - Ajuste interno no importador de AFD, para quando houver mais de um arquivo com a mesma descrição na pasta selecionada para importação, somente um seja importado.
+
+- `Importador de AFD [FM-3559]` - Melhoria interna no importador de AFD, incluindo o status de processamento "Offline", para quando a máquina estiver sem internet e houver algum arquivo para ser importado.
+
+- `Importar marcações [FM-3732]` - Ajuste interno na importação de AFD, para quando o arquivo não possuir o cabeçalho, o sistema abra uma seleção de empresas, direcionando a importação corretamente.
+
+- `Importar marcações [FM-3567]` - Melhoria interna nos avisos para importações de AFD com mais de 60 dias retroativos, marcações inválidas e arquivos fora do padrão.
+
+- `Importar marcações [FM-3406]` - Realizado ajuste no importador AFD para garantir que a importação dos arquivos AFD Portaria 671 funcione corretamente.
+
+- `Importar marcações [FM-368]` - Ajuste interno na importação de AFD quando há virada de dia, para funcionar conforme o esperado.
+
+- `Integração eContador [FM-3437]` - Ajuste interno na integração eContador, para quando a empresa estiver cadastrada com o tipo de documento CPF, a integração ocorra conforme o esperado.
+
+- `Integração eContador [FM-3651]` - Melhoria interna na integração com o eContador, onde não permite a integração de alteração e inclusão de e-mail de usuários já desligados.
+
+- `Relatório de saldos acumulados [FM-3447]` - Melhoria interna para que o relatório de saldos acumulados considere a atualização de cargos e departamentos ocorridos no cadastro do usuário, após ser realizada a atualização das jornadas.
+
+- `Relatório de absenteísmo [FM-3567]` - Ajuste interno no relatório de absenteísmo, para que traga o percentual de faltas, atrasos, suspensões, atestados e absenteísmo conforme o esperado.
+
+---
+
 ## Flit Gestor v4.17.0 (11/02/2025)
  
 ### 🚀 Novo
@@ -9,51 +91,13 @@ Para habilitar o recurso, acesse o menu lateral, aba Cadastro, Usuários e, no c
 Além da configuração individual no cadastro do usuário, também é possível ativá-la no cadastro da empresa, garantindo que a configuração seja aplicada a todos os colaboradores vinculados.
 Para adquirir este recurso, basta acessá-lo no cadastro do usuário e clicar em "Fale Conosco".
 
-- `Exportação para folha de pagamento [FM-3364]` - Criado exportação de ocorrências para o sistema de folha de pagamento Cuca Fresca através de arquivo TXT. Consulte no menu lateral em frequência, exportar dados, crie modelo de exportação selecionando o sistema Cuca Fresca.
-
 ### 🌟 Melhorias
  
 - `Importar marcações [FM-3284]` - Melhoria na tela de importação AFD. Agora, ao importar um arquivo AFD sem a informação do cabeçalho que indica a empresa a ser importada, será exibida a tela do Flit Gestor para que o usuário selecione a empresa desejada. Para realizar a importação, basta acessar o menu lateral, na aba "Frequência", e clicar em "Importar marcações".
-
-- `Listagem de marcação [FM-2332]` - Realizado ajuste visual na paginação da tela de listagem de marcação. 
- 
-- `Importador de AFD [FM-3234]` - Foi realizada uma melhoria na tela do importador de AFD. Agora é possível acompanhar o andamento da importação e consultar por status: "Importação total", "Importação parcial", "Impossível importar" e "Processando". Além disso, ao clicar sobre a importação, é possível visualizar detalhadamente o que ocorreu durante o processo.
-
-- `Importador de AFD [FM-3281]` - Melhoria visual nos logs gerados pelo importador de AFD.
-
-- `Relatório de saldos [FM-2992]` - A partir de agora, ao gerar o relatório de saldos detalhados, será exibido um totalizador para cada coluna, considerando todos os valores incluídos no relatório. 
-
-- `Exportação para folha de pagamento [FM-3369]` - Melhoria visual no campo "Código do Evento" no modelo de exportação do sistema Domínio, garantindo que seja exportado corretamente.  
-
-- `Relatório de absenteísmo [FM-3273]` - Com a melhoria no relatório de absenteísmo, agora é possível criar modelos e configurar como o cálculo será realizado. O sistema oferecerá três modelos prontos por padrão, mas também permitirá a criação de um modelo personalizado, onde o cálculo será feito conforme as configurações definidas. Basta acessar o menu lateral, aba relatórios, clicando sobre o relatório de absenteísmo. 
  
 ### 🔧 Correções
  
 - `Usuário [FM-2343]` - Ajuste interno no cadastro do usuário para que, ao mudar de colaborador que marca ponto para gestor que não marca ponto, sua matrícula seja excluída.
-
-- `Usuário [FM-2437]` - Ajuste interno no cadastro do usuário, para quando a configuração da conta for marcação por exceção, não mostrar a opção "Atualizar jornadas".
-
-- `Relatório de usuários [FM-2981]` - Ajuste interno na exportação do relatório de usuários. A partir de agora, a exportação respeitará as configurações definidas pelo perfil de acesso. 
-
-- `Relatório de saldos acumulados [FM-2980]` - Ajuste interno na exportação do relatório de saldos acumulados. A partir de agora, a exportação respeitará as configurações definidas pelo perfil de acesso. 
-
-- `Integração eContador [FM-3214]` - Realizada melhoria visual na tela da integração eContador (plataforma que integra o DP Alterdata com o Flit). 
-
-- `Escala [FM-3240]` - Ajuste na tela de escala, para que o total de horas trabalhadas seja calculada de acordo com o esperado. 
-
-- `Relatório de Saldos - [FM-3250]` - Ajuste interno no relatório de saldos, para que o valor do totalizador de hora extra noturna seja levado corretamente para o relatório quando a configuração da conta for banco de horas.  
-
-- `Empresa [FM-3300]` - Ajuste interno no cadastro da empresa, para que seja possível salvar a alteração feita no campo "Restrições IP". 
-
-- `Usuário [FM-1922]` - Realizado ajuste no cadastro do usuário, agora, ao informar uma data de desligamento futura, o status "desligado" só será ativado a partir da data informada.
-
-- `Perfil de acesso [FM-3215]` - Melhoria interna para que a configuração do perfil de acesso funcione como esperado. 
-
-- `Importador de AFD [FM-3326]` - Foi realizado um ajuste interno no importador de AFD para permitir que, mesmo após a exclusão da pasta configurada, seja possível acessá-lo e configurar uma nova pasta para a importação das marcações.
-
-- `Importar marcações [FM-3290]` - Melhoria interna na tela de importar marcações, para que seja possível importar arquivos com muitas marcações. 
-
-- `Usuário [FM-2997]` - Ajuste no cadastro do usuário para impedir a inclusão de uma data de desligamento anterior à última marcação de ponto.
 
 ---
 
